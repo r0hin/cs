@@ -1,0 +1,224 @@
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/eonstyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i|Roboto+Mono:300,400,700|Roboto+Slab:300,400,700"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="css/material.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/waves.min.css">
+    <script src="js/waves.min.js"></script>
+
+    <title>Y9 Design</title>
+</head>
+
+<body id="body"
+    style="background-image: url('https://images.unsplash.com/photo-1575275400619-80ea3bb088b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80'); padding: 40px;">
+
+    <style>
+        .trans {
+            background: transparent;
+            display: none;
+            transition: all 1s;
+        }
+
+        .nontrans {
+            background-color: #fff;
+            display: block;
+            transition: all 1s;
+        }
+    </style>
+
+
+    <canvas style="width: 100%; height: 100%; position: absolute;" id="myCanvas"></canvas>
+
+
+
+    <div class="card animated fadeIn">
+        <div class="card">
+            <center>
+                <br><br>
+                <h1>Rohin's Design Site</h1>
+
+                <br><br>
+            </center>
+        </div>
+    </div>
+    <br><br>
+    <div class="card animated fadeIn">
+        <div class="card">
+            <center>
+                <br><br>
+                <h1>Current Unit</h1>
+
+                <br><br>
+                <button onclick="window.location.replace('webcreate.html')"
+                    class="waves-flat-button btn-raised">Web Dev -> C/D</button>
+                <br><br>
+            </center>
+        </div>
+    </div>
+
+    <br><br>
+    <div class="card animated fadeInUp">
+        <div class="card">
+            <center>
+                <br><br>
+                <h3>Units / Critera</h3>
+
+                <br><br>
+
+                <select id="a" style="display: inline-block; width: 20%;" class="custom-select">
+                    <option selected>-] Choose a Unit [-</option>
+                    <option value="python">Python</option>
+                    <option value="web">Web Dev</option>
+                    <option value="robot">Robotics</option>
+                </select>
+
+
+                <select id="b" style="display: inline-block; width: 20%;" class="custom-select">
+                    <option selected>-] Choose a Critera [-</option>
+                    <option value="inquiry">Inquiry & Analysis</option>
+                    <option value="develop">Developing Ideas</option>
+                    <option value="create">Creating the Solution</option>
+                    <option value="evaluate">Evaluating the Solution</option>
+                </select>
+
+                <button onclick="go()" class="waves-flat-button btn-primary">Go</button>
+
+                <br><br><br>
+
+
+                <script>
+                    function go() {
+                        a = document.getElementById('a').value
+                        b = document.getElementById('b').value
+                        document.getElementById('body').classList.add("animated")
+                        document.getElementById('body').classList.add("fadeOut")
+                        window.setTimeout(function () {
+                            window.location.replace(a + b + ".html")
+                        }, 500)
+                    }
+
+
+
+                </script>
+
+            </center>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/eonstyles.js"></script>
+    <script
+        type="text/javascript">addWaves(); function addWaves() { Waves.attach(".waves-flat-button", ["waves-button"]), Waves.attach(".waves-float-button", ["waves-button", "waves-float"]), Waves.attach(".waves-float-button-dark", ["waves-button", "waves-float"]), Waves.attach(".waves-float-button-light", ["waves-button", "waves-float", "waves-light"]), Waves.attach(".waves-box", ["waves-block"]), Waves.attach(".waves-float-box", ["waves-block", "waves-float"]), Waves.attach(".waves-image"), Waves.init(); }</script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="js/material.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
+
+<script>
+
+    var PI_2 = 2 * Math.PI;
+
+    var canvas = document.getElementById('myCanvas');
+    var context = canvas.getContext('2d');
+    canvas.height = window.innerHeight;
+    canvas.width = window.innerWidth;
+
+    var particles = [];
+
+    animate();
+
+    function randomColor() {
+        var value = 1;
+        var r = 1 + (Math.floor(Math.random() * 205));
+        var g = 1 + (Math.floor(Math.random() * 205));
+        var b = 1 + (Math.floor(Math.random() * 205));
+        return "rgba(" + r + "," + g + "," + b + ", 0.5)"
+    }
+
+    function Particle(x, y) {
+        this.x = x;
+        this.y = y;
+        this.dy = 1 + (Math.random() * 3);
+        this.dx = -1 + (Math.random() * 2);
+        this.color = randomColor();
+        this.size = 2 + Math.floor(Math.random() * 10);
+        this.draw = function () {
+            context.beginPath();
+            context.arc(this.x, this.y, this.size, 0, PI_2, false)
+            context.fillStyle = this.color;
+            context.fill();
+            this.update();
+        }
+        this.update = function () {
+            this.y += this.dy;
+            this.x += this.dx;
+        }
+    }
+
+    canvas.addEventListener('mousemove', function (e) {
+
+        var mouseX, mouseY;
+        if (e.offsetX) {
+            mouseX = e.offsetX;
+            mouseY = e.offsetY;
+        }
+        else if (e.layerX) {
+            mouseX = e.layerX;
+            mouseY = e.layerY;
+        }
+        for (i = 0; i < 0.001; i++) {
+            var p = new Particle(mouseX, mouseY);
+            particles.push(p);
+        }
+    }, false);
+
+    function animate() {
+        context.clearRect(0, 0, window.innerWidth, window.innerWidth);
+        draw();
+        window.requestAnimationFrame(animate);
+    }
+
+    function draw() {
+        for (i = 0; i < particles.length; i++) {
+            particles[i].draw();
+        }
+    }
+
+    window.addEventListener("resize", function () {
+        canvas.height = window.innerHeight;
+        canvas.width = window.innerWidth;
+    });
+</script>
+
+
+
+<!-- 
+    waves-light // Light Waves
+    waves-flat-button // Button flat
+    waves-float-button // Button float
+    waves-float-button-dark // Button float dark waves
+    waves-float-button-light // Button float dark waves
+    waves-flat-box // Box flat
+    waves-float-box // Box float
+    waves-image // Image waves  
+-->

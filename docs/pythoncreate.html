@@ -1,0 +1,783 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/eonstyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i|Roboto+Mono:300,400,700|Roboto+Slab:300,400,700"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="css/material.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/waves.min.css">
+    <script src="js/waves.min.js"></script>
+    <script src="https://kit.fontawesome.com/974fa7d414.js" crossorigin="anonymous"></script>
+    <title>Critera C/D | Python</title>
+</head>
+<h1 style="display: none;" id="erorrModalMsg"></h1>
+
+<body id="body" style="font-size: 125%; padding: 40px; background-color: rgb(240, 240, 240);">
+    <!-- Modal -->
+    <div class="modal fade" id="errorModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Rubric</h3>
+                </div>
+                <h5 class="modal-body">
+
+                    Criteria C Rubric (7-8 level) <br> <br>
+                    i. detailed and logical plan, which describes the efficient use of time and resources; peers able to
+                    re-create the solution
+                    <br>
+                    <br>
+                    ii. excellent technical skills (Tkinter GUI, event driven, functions, if statements, loops, list
+                    data, file input/output, commented)
+                    <br>
+                    <br>
+                    iii. fully justifies changes made to the chosen design and plan when making the solution.
+                    <br>
+                    <br>
+                    <br>
+                    Criteria D Rubric (7-8 level)
+                    <br>
+                    <br>
+                    i. detailed and relevant testing methods and error checking (if statements, try except) to ensure
+                    quality
+                    <br>
+                    <br>
+                    ii. critically evaluates the success of the solution against the design specification (Criteria B)
+                    based on authentic product testing
+                    <br>
+                    <br>
+                    iii. explains how the solution could be improved
+
+                </h5>
+                <div class="modal-footer"><button type="button" class="waves-flat-button btn-text-primary"
+                        data-dismiss="modal">close</button></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div style="padding: 15px;">
+        <div class="card" style="border-radius: 10px; padding: 40px; ">
+            <center>
+                <h1><b>Creating and Evaluating the Solution</b></h1>
+                <h3>Critera C/D by Rohin</h3>
+
+                <button onclick="error('')" class="waves-flat-button btn-outline-primary">view rubric</button>
+                <a href="index.html" class="waves-flat-button btn-outline-primary">home page</a>
+                <br>
+            </center>
+        </div>
+    </div>
+
+
+
+
+    <div style="padding: 15px;">
+        <div class="card" style="border-radius: 10px; padding: 40px; ">
+
+            <center>
+                <h2><b>Production Plan</b></h2>
+
+
+                <h5>My Production Plan outlines the steps I am going to take in the upcoming creating the solution and
+                    the entire process of building this application. For the timeline below, WP is work period and
+                    anything not completed in those work periods will be completed some time whether it be at home or at
+                    the end of the next work period. </h5>
+
+                <br><br>
+                <h3 style="text-align: left;">TeamGantt Chart</h3>
+                <img style="width: 80%;" src="https://i.imgur.com/31lFf9S.png"
+                    alt="Reload the page. The images are not loading for some reason.">
+                <h3 style="text-align: left;">Visme Timeline</h3>
+                <img style="width: 80%;" src="https://i.imgur.com/CXI8V9r.jpg"
+                    alt="Reload the page. The images are not loading for some reason.">
+
+
+
+
+            </center>
+
+
+
+        </div>
+    </div>
+
+
+    <div style="padding: 15px;">
+        <div class="card" style="border-radius: 10px; padding: 40px; ">
+
+            <center>
+                <h2><b>GitHub Version Control</b></h2>
+                <img style="width: 120px;"
+                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="">
+                <br>
+                <button onclick="window.open('https://github.com/rohinarya12/y9-design')"
+                    class="waves-flat-button btn-raised-primary">GitHub Repo</button>
+
+
+
+
+
+            </center>
+
+
+
+        </div>
+    </div>
+
+    <div style="padding: 15px;">
+        <div class="card" style="border-radius: 10px; padding: 40px; ">
+
+            <center>
+                <h2><b>Dependencies</b></h2>
+                <h5>There are numerous dependencies in order to run this program successfully.</h5>
+
+                <img style="display: inline-block; width: 80px;"
+                    src="https://www.python.org/static/opengraph-icon-200x200.png" alt="">
+                <h3 style="display: inline-block;">Python <b>3</b></h3>
+
+                <img style="display: inline-block; width: 125px;"
+                    src="https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo.png" alt="">
+                <h3 style="display: inline-block; "><b>P</b>yrebase</h3>
+                <br><br>
+                <h3>Instructions</h3>
+                <a class="waves-flat-button btn-text-primary" href="https://www.python.org/downloads/">Download and
+                    Install Python3 from here</a><br>
+                <h5 style="display: inline-block;">Then, install Pyrebase with PIP<b>3</b>:</h5><code
+                    style="font-size: 12px;">sudo pip3 install pyrebase</code>
+                <br>
+                <h5 style="display: inline-block;">Finally, run it with <b>python3</b>: </h5>
+                <code style='display: inline-block; font-size: 12px;'>cd Downloads</code> <code
+                    style='display: inline-block; font-size: 12px;'>python3 socialsky.py</code>
+
+
+
+
+
+            </center>
+
+
+
+        </div>
+    </div>
+
+    <div style="padding: 15px;">
+        <div class="card" style="border-radius: 10px; padding: 40px; ">
+
+            <center>
+                <h2><b>My Solution</b></h2>
+                <h5>My solution is in the form of a single Python script, hosted on GitHub.</h5>
+                <a target="_blank" href="https://github.com/rohinarya12/y9-design/blob/master/Python/socialsky.py"
+                    class="waves-flat-button btn-text-primary">Python Script</button>
+                    <a target="_blank"
+                        href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/rohinarya12/y9-design/blob/master/Python/socialsky.py"
+                        class="waves-flat-button btn-raised-primary">Download</a>
+
+
+
+
+            </center>
+
+
+
+        </div>
+    </div>
+
+
+
+    <div style="padding: 15px;">
+        <div class="card" style="border-radius: 10px; padding: 40px; ">
+
+            <center>
+                <h2><b>Changes to my Solution</b></h2>
+            </center>
+            <h3>Introductory</h3>
+            <h4>Modifying code is one of the most crucial part of the design system as just looking at the design cycle,
+                there are arrows pointing everywhere meaning you can be at any point and you will be able to go anywhere
+                (ie. redo a process, change your goals, etc). It is almost impossible to start with a plan and follow it
+                perfectly as there is always either shortcomings or you complete more than expected. This solution is no
+                exception and there have been many meaningful changes to both the code, design and plan.</h4>
+            <h3>Changes to my Code</h3>
+            <h4>The actual code part of my code changed a lot. For example, I was planning on adding images such as
+                profile pictures to the app, but decided not to as there was not enough time to add it and just hooking
+                it up with pyrebase which has limited support took up the majority of the time. Secondly, I opted to use
+                a really small web-based account creation page instead of on tkinter becuase on pyrebase there actually
+                isn't any support for creating and managing email accounts without signing in with Google. Thirdly and
+                finally, I changed the way messages are displayed, instead, I decided on a material design type card
+                style.</h4>
+            <h3>Changes to my Plan</h3>
+            <h4>The plan which you can view above was also altered slightly but not very much. I followed the plan as
+                close as I could, however, work period 5-6 which consisted of managing data from the database and
+                formatting data took some more troubleshooting and effort than the other parts in the timeline.
+                Secondly, many things which were said to be completed in one work period have to have been postponed to
+                home or even added to the list for another work period, so it was hard to keep on the pace of the work
+                period which is why I had to cut back on some corners in the final product such as not building the
+                application up.</h4>
+            <h3>Changes to the Design</h3>
+            <h4>The original design plan was meant to be a modern and good looking design but after trying to make it
+                look as good as possible, I concluded that it would be better to just have it a simple app to send quick
+                pointless messages to. Since tkinter is not the most graphic library and not the best framework for
+                creating good looking designs, I figured this one was pretty impossible so I decided to center things,
+                add some shadows and that was pretty much all I could do. So there weren't very many changes to the plan
+                of the design except for maybe one or two very major ones.</h4>
+            <h3>Conclusion</h3>
+            <h4>In conclusion the use of modification during the design cycle was very important to completing this
+                software and any project for that matter and if I couldn't make those changes, there likely wouldn't
+                have been any product released. To get the basic application out there while making changes to the code,
+                plan and even design part of it was definitely worth it as the alternative of not having an app at all
+                is obviously not as good (bad).</h4>
+
+
+        </div>
+    </div>
+
+
+
+    <div style="padding: 15px;">
+        <div class="card" style="border-radius: 10px; padding: 40px; ">
+
+            <center>
+                <h2><b>Exhibiting Technical Skills</b></h2>
+            </center>
+            <h3>General</h3>
+            <h4>Technical skills is essentially what makes your solution stand out and I believe that I displayed lots
+                of technical skills when creating the solution and the writeup for it (this old thing). From the actual
+                management of the application such as the proficiency of the use of GitHub versioning control, to the
+                use of pyrebase a link to a natively web framework, Firebase, these technical skills will be explained
+                in more detail below: </h4>
+            <h3>Pyrebase</h3>
+            <h4>Pyrebase is an unofficial wrapper for the Firebase API. Using it and knowing how to both use Firebase
+                and python was crucial in creating the app and not something anybody could do. To combine with the fact
+                that there is little documentation on it and not much support for it, you're really on your own with
+                this one and being proficcient enough with Firebase itself and Python itself are essentially in using
+                this unofficial framework with minimal errors.</h4>
+            <h3>Code Quality</h3>
+            <h4>The other way to judge technical skills and experience is by actually looking at the quality of code.
+                This includes things such as the code layout, management of errors and organization of variables and
+                functions. There are no (few) unhandled errors in my code and all of them are handled by displaying a
+                message such as "an error has occured with your request." ON THE WINDOW. Additionally, the functions are
+                at the top and the code generally is very readable which just looking at shows some kind of technical
+                skills and experience. </h4>
+            <h3>Conclusion</h3>
+            <h4>In conclusion, I feel like through the above points, technical skills were demonstrated in the creation
+                of this solution due to the quality of code, and use of difficult libraries. </h4>
+
+        </div>
+    </div>
+
+    <div style="padding: 15px;">
+        <div class="card" style="border-radius: 10px; padding: 40px; ">
+
+            <center>
+                <h2><b>Error Checking and Testing</b></h2>
+            </center>
+            <h3>Introduction</h3>
+            <h4>Error checking is another very important element to the success of any solution. In this case, Python is
+                a very easy language to error check and I have took advantage of this to incorporate error checking into
+                my app. In Python, there are three types of errors. Syntax errors, which are the easiest to fix and are
+                mistakes with the writing of the code. Secondly, logic errors which are usually difficult to find and
+                stem from some kind of logically issue within the code. Finally, runtime errors are code errors where
+                python simply doesn't understand what you are trying to say. For example things like dividing by zero,
+                and accessing files that don't exist will produce a runtime error.</h4>
+            <h3>Relevance to my Code</h3>
+            <h4>In order to ensure non of the above errors would have an effect on my application, I employed some
+                different steps to help me fix these issues. Firstly, to fix the syntax error, I just double cheked my
+                code and made sure everything ran correctly which was very easy. To fix logic errors, I just checked to
+                make sure that everything ran correctly through day-to-day usage and I didn't have to deal with this
+                kind of error after grasping the fact that Python runs sequentially unlike many other languages.
+                Finally, runtime errors just did'nt occur in my code because of good practise and making sure all files
+                exists, try statements, etc. </h4>
+            <h3>Solutions</h3>
+            <h4>Many issues such as network issues, unforseen database issues are also possible. The way I fixed this
+                was by wrapping common error culprits with a try statement and excepting it with a tkinter create
+                element which esentially puts a message onscreen informing the useer that an error occured and to try
+                restarting the app / computer / internet device.</h4>
+
+
+
+        </div>
+    </div>
+
+    <div style="padding: 15px;">
+        <div class="card" style="border-radius: 10px; padding: 40px; ">
+
+            <center>
+                <h2><b>Daily Log & Success of Timeline</b></h2>
+            </center>
+            <br>
+
+            <div class="card">
+                <div class="card-body">
+                    <h3>Day 1 (WP 1)</h3>
+
+                    <h4>This time was spent <br>
+                        - PIP Installing <br>
+                        - Reading up on Pyrebase <br>
+                        - Procrastinating</h4>
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Box of Artifacts</h3>
+
+                            <a href="https://github.com/thisbejim/Pyrebase"
+                                class="waves-flat-button btn-text-primary">Pyrebase Documentation</a>
+                            <a href="https://realpython.com/what-is-pip/"
+                                class="waves-flat-button btn-text-primary">PIP3 Tutorial</a>
+                        </div>
+                    </div><br>
+                </div>
+            </div><br>
+
+            <div class="card">
+                <div class="card-body">
+                    <h3>Day 1-2 (Home)</h3>
+
+                    <h4>This time was spent <br>
+                        - Nothing </h4>
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Box of Artifacts</h3>
+                            <p>*dust</p>
+                        </div>
+                    </div><br>
+                </div>
+            </div><br>
+
+            <div class="card">
+                <div class="card-body">
+                    <h3>Day 3 (WP 2)</h3>
+
+                    <h4>This time was spent <br>
+                        - Creating py File <br>
+                        - Importing Requirements <br>
+                        - Creating Firebase Project</h4>
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Box of Artifacts</h3>
+                            <a href="http://firebase.google.com/" class="waves-flat-button btn-text-primary">Firebase
+                                Console</a>
+                        </div>
+                    </div><br>
+                </div>
+            </div><br>
+
+
+            <div class="card">
+                <div class="card-body">
+                    <h3>Day 3-4 (Home)</h3>
+
+                    <h4>This time was spent <br>
+                        - Nothing</h4>
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Box of Artifacts</h3>
+                            <p>*dust</p>
+                        </div>
+                    </div><br>
+                </div>
+            </div><br>
+
+            <div class="card">
+                <div class="card-body">
+                    <h3>Day 5 (WP 3)</h3>
+
+                    <h4>This time was spent <br>
+                        - Pyrebase Setup <br>
+                        - Creating Elments
+
+                    </h4>
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Box of Artifacts</h3>
+                            <a href="https://github.com/thisbejim/Pyrebase"
+                                class="waves-flat-button btn-text-primary">Pyrebase Documentation</a>
+                        </div>
+                    </div><br>
+                </div>
+            </div><br>
+
+            <div class="card">
+                <div class="card-body">
+                    <h3>Day 5-6 (Home)</h3>
+
+                    <h4>This time was spent <br>
+                        - Finishing Pyrebase Setup <br>
+                        - Finishing Creating Elments <br>
+                        - Setup Pyrebase Authentication
+
+                    </h4>
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Box of Artifacts</h3>
+                            <a href="https://github.com/thisbejim/Pyrebase"
+                                class="waves-flat-button btn-text-primary">Pyrebase Documentation</a>
+
+                            <a href="https://docs.python.org/3/library/tk.html"
+                                class="waves-flat-button btn-text-primary">Tkinter Documentation</a>
+                        </div>
+                    </div><br>
+                </div>
+            </div><br>
+
+            <div class="card">
+                <div class="card-body">
+                    <h3>Day 7 (WP 4)</h3>
+
+                    <h4>This time was spent <br>
+                        - Firebase Database Setup <br>
+                        - Uploading to Database through Python <br>
+                        - Retrieving from Database
+
+                    </h4>
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Box of Artifacts</h3>
+                            <a href="https://github.com/thisbejim/Pyrebase"
+                                class="waves-flat-button btn-text-primary">Pyrebase Documentation</a>
+
+                            <a href="https://docs.python.org/3/library/tk.html"
+                                class="waves-flat-button btn-text-primary">Tkinter Documentation</a>
+                            <a href="https://firebase.google.com/docs/database"
+                                class="waves-flat-button btn-text-primary">Firebase Realtime Database Documentation</a>
+                        </div>
+                    </div><br>
+                </div>
+            </div><br>
+
+            <div class="card">
+                <div class="card-body">
+                    <h3>Day 7-8 (Home)</h3>
+
+                    <h4>This time was spent <br>
+                        - Finishing Firebase Database Setup <br>
+                        - Finishing Uploading to Database through Python <br>
+                        - Finishing Retrieving from Database
+
+                    </h4>
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Box of Artifacts</h3>
+                            <a href="https://github.com/thisbejim/Pyrebase"
+                                class="waves-flat-button btn-text-primary">Pyrebase Documentation</a>
+
+                            <a href="https://docs.python.org/3/library/tk.html"
+                                class="waves-flat-button btn-text-primary">Tkinter Documentation</a>
+
+                            <a href="https://firebase.google.com/docs/database"
+                                class="waves-flat-button btn-text-primary">Firebase Realtime Database Documentation</a>
+                        </div>
+                    </div><br>
+                </div>
+            </div><br>
+
+            <div class="card">
+                <div class="card-body">
+                    <h3>Day 9 (WP 5)</h3>
+
+                    <h4>This time was spent <br>
+                        - Retrieving data / formatting it <br>
+
+                    </h4>
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Box of Artifacts</h3>
+                            <a href="https://github.com/thisbejim/Pyrebase"
+                                class="waves-flat-button btn-text-primary">Pyrebase Documentation</a>
+
+                            <a href="https://docs.python.org/3/library/tk.html"
+                                class="waves-flat-button btn-text-primary">Tkinter Documentation</a>
+
+                            <a href="https://firebase.google.com/docs/database"
+                                class="waves-flat-button btn-text-primary">Firebase Realtime Database Documentation</a>
+
+                            <a href="https://www.w3schools.com/python/python_for_loops.asp"
+                                class="waves-flat-button btn-text-primary">Python Loops</a>
+
+
+                        </div>
+                    </div><br>
+                </div>
+            </div><br>
+
+            <div class="card">
+                <div class="card-body">
+                    <h3>Day 9-12 (Home & Work Periods)</h3>
+
+                    <h4>This time was spent <br>
+                        - Retrieving data / formatting it <br>
+                        - Creating element for each post <br>
+
+                    </h4>
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Box of Artifacts</h3>
+                            <a href="https://github.com/thisbejim/Pyrebase"
+                                class="waves-flat-button btn-text-primary">Pyrebase Documentation</a>
+
+                            <a href="https://docs.python.org/3/library/tk.html"
+                                class="waves-flat-button btn-text-primary">Tkinter Documentation</a>
+
+                            <a href="https://firebase.google.com/docs/database"
+                                class="waves-flat-button btn-text-primary">Firebase Realtime Database Documentation</a>
+
+                            <a href="https://www.w3schools.com/python/python_for_loops.asp"
+                                class="waves-flat-button btn-text-primary">Python Loops</a>
+
+
+                        </div>
+                    </div><br>
+                </div>
+            </div><br>
+
+            <div class="card">
+                <div class="card-body">
+                    <h3>Day 13+</h3>
+
+                    <h4>This time was spent <br>
+                        - Working on writeup (this) <br>
+
+                    </h4>
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Box of Artifacts</h3>
+                            <p>*dust</p>
+
+                        </div>
+                    </div><br>
+                </div>
+            </div><br>
+
+
+            <br>
+
+            <h4>Unfortunately, features such as always listening to the database is not possible with the current
+                version of Pyrebase and finding other solutions will rack up my free quota, so some features such as
+                this weren't possible with the functionality I was limited to.</h4>
+
+
+
+        </div>
+    </div>
+
+    <div style="padding: 15px;">
+        <div class="card" style="border-radius: 10px; padding: 40px; ">
+
+            <center>
+                <h2><b>Success Critera from Critera B</b></h2>
+                <h5>(Not from Critera C/D)</h5>
+            </center>
+
+            <h3>Target Audience</h3>
+            1) The target audience of this application are people who want a easy way to talk to people online
+            without all their data being collected.
+            <br><br>
+            <h3>User Experience</h3>
+            1) Very user-friendly and the user should not have any problems regarding use of the application.
+            <br>2) The interface should look good and be very simple. There should not be any clicky-ness and all
+            the widgets / components should not be used in a way that distracts from the main point
+            <br>3) Every instance of the app should show the same thing and be consistent every time.
+            <br>4) There will be lots of testing with many users for lots of feedback to constantly improve the
+            product.
+            <br><br>
+            <h3>User Interface Elements</h3>
+            1) The color scheme should remain consistent through the application.
+            <br>2) Typography will not be all over the place and keep a consistent design.
+            <br>3) Images / White space, there will not be too many images and there will have to be some white
+            space
+            to make the application look a lot better.
+            <br><br>
+            <h3>Material Design</h3>
+            I wanted to also mention this because it a modern design language created by Google and I wanted to
+            incorporate this into my app so it can remain consistent with the device and use the research of Google
+            in it's design. Since there is no official port for python, I will try to build the components myself
+            with Tkinter as accurate as possible.
+
+
+
+        </div>
+    </div>
+
+
+    <div style="padding: 15px;">
+        <div class="card" style="border-radius: 10px; padding: 40px; ">
+
+            <center>
+                <h2><b>Evaluation of Product</b> - Part 1</h2>
+            </center>
+
+            <h3>Introduction</h3>
+            <h4>I believe the solution was a partial success for various reasons. The solution did hit some points in
+                the success critera perfectly, however some other points were a flop such as using material design due
+                to there being no support for such design language. Alternatively, there were many points that worked
+                out well in my application such as the user experience and how the app is used. Things such as keeping
+                everything simple as possible and to the point. </h4>
+            <h3>Audience</h3>
+            <h4>It is hard to measure the success of the audience for a few reasons. Firstly, the success critera was
+                setup in a bad way because the target audience cannot be measured. It is essentially saying that the
+                target audience is people who will enjoy this app. So this isn't a success nor a failure.</h4>
+            <h3>UX / UI</h3>
+            <h4>The user interfacem did NOT follow a clear material design system because it is impossible to make it
+                look good when only using the caveman graphics library tkinter. This was later semi-changed due to the
+                use of some makeshift cards by simulating drop shadows by using RELIEF=RAISED or something. The UX
+                however, I believe was a success due to everything being very easy to use and not being "clicky". For
+                example, there are very few buttons and there are no pointless confirmation dialogs; everything is just
+                straight to the point, it connects people around the world anonymously. </h4>
+            <h3>Conclusion</h3>
+            <h4>Judging from the success critera and how well it performed based on the success criteria, I would
+                conclude that this solution is a partial success. this is due to it's success in the UX department but
+                less so in the the UI department. From this, we can conclude that this will definitely be useful to
+                those who need it, or just want a quick laugh or want to send some public messages anonymously. </h4>
+        </div>
+    </div>
+
+    <div style="padding: 15px;">
+        <div class="card" style="border-radius: 10px; padding: 40px; ">
+
+            <center>
+                <h2><b>Evaluation of Product</b> - Part 2</h2>
+                <br>
+                <h4>Second Opinions</h4>
+                <br>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Test</th>
+                            <th scope="col">Second Opinion #1</th>
+                            <th scope="col">Second Opinion #2</th>
+                            <th scope="col">Second Opinion #3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Rate UX / 10</th>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Rate UI / 10</th>
+                            <td>5</td>
+                            <td>4</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Would you use?</th>
+                            <td>Sometimes</td>
+                            <td>Sometimes</td>
+                            <td>No</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <br>
+
+                <h4>Repository Activity</h4>
+                <a target="_blank" class="waves-flat-button btn-outline-primary"
+                    href="https://github.com/rohinarya12/y9-design/graphs/commit-activity">Commit Activites</a>
+
+
+            </center>
+        </div>
+    </div>
+
+    <div style="padding: 15px;">
+        <div class="card" style="border-radius: 10px; padding: 40px; ">
+
+            <center>
+                <h2><b>Improvements and Errors</b></h2>
+            </center>
+            <h3>Introduction</h3>
+            <h4>In any given software application and solution, there are always available improvements and new
+                features. For a version two or future update of the software, those features may be added. In relevance
+                to my solution, the same principle definitely applies; there are many features and future improvements
+                which could be made to my program to make it more useful and complete it's tasks better. The following
+                points are: UI / UX, Images / More content, More put-together. I will expand on each one below:</h4>
+            <h3>More Content / Profile Pictures / Images</h3>
+            <h4>With more time and more resources, it would have been very useful to have an option to upload images,
+                add profile pictures and more to add to the identify of the users and the app in general. Adding profile
+                pictures would allow users to not worry about impersonation while not revealing their personal
+                information. Next, being able to upload images would be helpful such as sharing pictures with people
+                related to what they are talking about. Finally, making it more complete instead of just a text box such
+                as likes and agrees would make it more complete and more dynamic than just a public chatroom type
+                application and less of social media.</h4>
+            <h3>UI / UX</h3>
+            <h4>Another potential improvement would be the upgrade of the UI. Right now, it is a mix of really old
+                styles and material design cards. Trying to find more components especially buttons and inputs would
+                make it look a whole lot nicer instead of a 2006 windows xp program. Additionally, this would also allow
+                people to feel more comfortable using the app because I for one would not enjoy using an app that looks
+                liike it was from a decade ago as a daily or even a weekly application. Finally, upgrading the UI would
+                improve the overall UX of the application and may even attract more users and overal just improve the
+                experience of existing users and make it more easy on the eyes to those who are used to good looking
+                interfaces instead of traditional ones. </h4>
+            <h3>More Put-together</h3>
+            <h4>From the title it is hard to understand what I mean by this. Adding things such as a documentation and
+                terms and conditions and a dedicated website or even a forums would just make it look more put together
+                and professional for new users and provide a way for existing users to feel like they can talk to other
+                users of the app about the app. A terms and conditions is also really important because since it's
+                anonymous it could be really dangerous, therefore, I want to be protected legally and morally from what
+                people use the app to say. In accordance with my first sentence, the documentation would provide new
+                users a way to learn about the app and understand how to use it better incase they are not fully
+                comfortable with the user interface or don't immediately understand how to use the app such as creating
+                an account using the web interface or if something is not working for them.</h4>
+            <h3>Conclusion</h3>
+            <h4>In conclusion, these improvements which I have outlined above could make a very meaningful difference
+                for new and existing users in the use of the solution. These solutions are not changes to actually
+                applications they are more like features that could be additions to the current application. Updates
+                such as these are very important in a multitude of reasons. It helps make the application more active,
+                and it also attracts new users if they know it will be updated frequently. The UI, Content Improvements
+                and additions of things such as terms and conditions and documentations could all play a part in a
+                potential part two of the application.</h4>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <script src="js/eonstyles.js"></script>
+    <script
+        type="text/javascript">addWaves(); function addWaves() { Waves.attach(".waves-flat-button", ["waves-button"]), Waves.attach(".waves-float-button", ["waves-button", "waves-float"]), Waves.attach(".waves-float-button-dark", ["waves-button", "waves-float"]), Waves.attach(".waves-float-button-light", ["waves-button", "waves-float", "waves-light"]), Waves.attach(".waves-box", ["waves-block"]), Waves.attach(".waves-float-box", ["waves-block", "waves-float"]), Waves.attach(".waves-image"), Waves.init(); }</script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="js/material.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
+
+
+<script>
+    //snackbar('Look at this note', 'Button', 'error("lol")', "7000")
+</script>
+
+
+
+<!-- 
+    waves-light // Light Waves
+    waves-flat-button // Button flat
+    waves-float-button // Button float
+    waves-float-button-dark // Button float dark waves
+    waves-float-button-light // Button float dark waves
+    waves-flat-box // Box flat
+    waves-float-box // Box float
+    waves-image // Image waves  
+-->

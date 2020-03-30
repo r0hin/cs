@@ -1,0 +1,97 @@
+<html>
+
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://rohinarya12.github.io/eonstyles/assets/eonstyles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link href="css/material.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/waves.min.css">
+        <script src="js/waves.min.js"></script>
+        <script src="https://kit.fontawesome.com/974fa7d414.js" crossorigin="anonymous"></script>
+        
+        <title>Challenge Complete</title>
+        
+        <style>
+            body{
+                font-family: Assistant;
+                padding: 40px;
+            }
+        </style>
+
+    </head>
+
+    <body id="body">
+
+    <!-- Modal -->
+        <div class="modal fade bd-example-modal-sm" id="errorModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        
+                        <h3>Error</h3>
+                        <h5 id="erorrModalMsg" class="modal-body">Unable to complete process.</h5>
+                        
+                        <div class="modal-footer">
+                            <button type="button" class="waves btn-old-text" data-dismiss="modal">dismiss</button>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="everything">
+            
+            <h1>Who are you</h1>
+            
+            <br>
+
+            <div class="floating-label textfield-box">
+                <label for="a">Name</label>
+                <input class="form-control" id="a" placeholder="Enter your name" type="text">
+            </div>
+
+            <br><br>
+            
+            <div class="floating-label textfield-box">
+                <label for="b">Age</label>
+                <input class="form-control" id="b" placeholder="Enter your age" type="text">
+            </div>
+            
+            <br>
+
+            <select class="custom-select" name="" id="ye">
+                <option selected value="">Favourite Food</option>
+                <option value="Pizza">Pizza</option>
+                <option value="Pasta">Pasta</option>
+                <option value="Big Mac">Big Mac</option>
+                <option value="Dogs">Dogs</option>
+                <option value="Other People">Other People</option>
+                <option value="Food Eats You">Food Eats You</option>
+            </select>
+
+            <br>
+
+            <button class="waves btn-old-primary" onclick="yeet()">Submit</button>
+
+            <br><br>
+            <h4 id="poop"></h4>
+
+        </div>
+        
+        <script src="https://rohinarya12.github.io/eonstyles/assets/eonstyles.js"></script>   
+        <script type="text/javascript">
+        addWaves();
+        function addWaves() {Waves.attach(".waves",["waves-button"]),Waves.attach(".waves-float-button",["waves-button","waves-float"]),Waves.attach(".waves-float-button-dark",["waves-button","waves-float"]),Waves.attach(".waves-box",["waves-block"]),Waves.attach(".waves-float-box",["waves-block","waves-float"]),Waves.attach(".waves-image"),a=document.getElementsByClassName("btn-eon-two");for(let t=0;t<a.length;t++)a[t].classList.add("waves-light");a=document.getElementsByClassName("btn-eon-three");for(let t=0;t<a.length;t++)a[t].classList.add("waves-light");a=document.getElementsByClassName("btn-eon-four");for(let t=0;t<a.length;t++)a[t].classList.add("waves-light");Waves.init();}</script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="js/material.min.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+
+</html>
