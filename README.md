@@ -1,6 +1,3 @@
-# y9design
-
-UCC Y9 Design Repo
+UCC Design Repo
 -
-Current Year
-https://rohin12.gitlab.io/design/Y10/
+<a href="https://github.com/r0hin/design/Y10/">View Current Year</a>
