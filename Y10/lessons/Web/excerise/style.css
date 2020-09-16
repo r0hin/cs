@@ -1,0 +1,16 @@
+.content {
+    padding: 48px;
+}
+
+#itemWrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.success {
+    color: lime;
+}
+
+.wrong {
+    color: red;
+}
