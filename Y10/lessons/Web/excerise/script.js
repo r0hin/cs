@@ -7,6 +7,7 @@ function reset() {
 
 function load() {
     $(`.valueItem`).html('<i class="material-icons">add_box</i>')
+    $(`.valueItem`).attr('onclick', '')
 
     startValue = Math.trunc(Math.random() * 10) + 1;
     
