@@ -35,6 +35,7 @@ function load() {
 
                 if (answer == response) {
                     $('#status').html('<span class="success">Correct, congratulations!</span>')
+                    $(`.valueItem`).attr('onclick', '$(`#status`).html(`You already won!`)')
                     $(`#item${missValue}`).html(response)
                 }
                 else {
