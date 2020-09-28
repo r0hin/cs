@@ -6,11 +6,40 @@
 ### Part Two | Research Plan
 <p>Enter, "EonSound" - the revolutionary new music streaming service. To build an app like this, I will need to learn or have learned the following technologies on top of basic fundamentals such as HTML, CSS, and JavaScript:</p>
 
-- [ ] Firebase (Database, Cloud Functions, Authentication, and Storage)<br>
-- [ ] Electron (Cross-platform Desktop Apps)<br>
-- [ ] Spotify API (Search Songs, Track Information, User Playlists)<br>
-- [ ] YouTube API (Search Videos, Download) <br>
-- [ ] Node.JS (Return Song URLs, Package "firebase-admin", etc)<br>
+- <a href="https://www.w3schools.com/html/"> HTML</a>
+- <a href="https://www.w3schools.com/css/"> CSS</a>
+  - <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"> Flex</a>
+  - <a href="https://css-tricks.com/almanac/properties/a/animation/"> CSS3 Animations</a>
+  - <a href=""> Libraries</a>
+    - <a href="https://getboostrap.com/"> Bootstrap</a>
+    - <a href="http://daemonite.github.io/material/"> Material Design</a>
+- <a href="https://www.w3schools.com/js/"> JavaScript</a>
+  - <a href="https://www.w3schools.com/js/js_loop_for.asp"> Loops</a>
+  - <a href="https://www.w3schools.com/js/js_arrays.asp"> Arrays</a>
+  - <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"> Fetch API</a>
+  - <a href=""> Content APIs</a>
+    - <a href="https://developer.spotify.com/documentation/web-api/"> Spotify</a>
+      - <a href="https://developer.spotify.com/documentation/general/guides/authorization-guide/"> Auth flow</a>
+      - <a href="https://developer.spotify.com/console/"> Get a track, album, playlist, artist, etc</a>
+      - <a href="https://developer.spotify.com/console/get-search-item/"> Search songs</a>
+    - <a href=""> YouTube</a>
+      - <a href="https://www.npmjs.com/package/yt-search">Search & filter </a>
+      - <a href="https://www.npmjs.com/package/ytdl-core">Download</a>
+- <a href="https://firebase.google.com"> Firebase</a>
+  - <a href="https://firebase.google.com/docs/auth">Authentication</a>
+  - <a href="https://firebase.google.com/docs/firestore"> Cloud Firestore</a>
+  - <a href="https://firebase.google.com/docs/storage"> Cloud Storage</a>
+  - <a href="https://firebase.google.com/docs/functions"> Cloud Functions</a>
+  - <a href="https://firebase.google.com/docs/hosting">Firebase Hosting</a>
+- <a href="https://nodejs.org/en/">NodeJS</a>
+  - <a href="http://electronjs.org/">Electron</a>
+    - <a href="https://github.com/electron-userland/electron-builder">Electron Builder</a>
+  - <a href="https://www.npmjs.com/package/firebase-admin">firebase-admin</a>
+  - <a href="https://www.npmjs.com/package/firebase-functions">firebase-functions</a>
+
+
+<br>
+
 
 <p>I am somewhat familiar with these technologies but in order to create a good user-experience, I will need to learn each of those more in-depth and practice them more.</p>
 
