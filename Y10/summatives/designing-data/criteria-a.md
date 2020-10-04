@@ -87,6 +87,7 @@
 
 #### 01
 <p><b>Firebase Authentication Listener</b> to distinguise whether users are signed in or out. This will also be used to show user different views depending on their account status. For example, a login page when they are not signed in.</p>
+
 ```javascript
 firebase.auth().onAuthStateChanged(function (user) {
   if (user) {
