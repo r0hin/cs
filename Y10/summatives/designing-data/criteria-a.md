@@ -99,6 +99,7 @@ firebase.auth().onAuthStateChanged(function (user) {
 
 #### 02
 <p><b>Spotify API Auth</b> is relevant to ensure all API requests go to spotify authenticated. Spotify has a very complex auth flow system so it was important to make sure the code worked before proceeding. I've put code comments to show what the code is doing.</p>
+
 ```javascript
 // Check if access token stored in database is valid.
 
@@ -135,8 +136,11 @@ window.spotifyCode = data.access_token;
 
 // SpotifyCode will be used for subsequent API calls.
 ```
+
 #### 03
+
 <p><b>Refresh Spotify Code</b> is a code snippet to be used to refresh the auth code after every use. I prefer using async/await instead of promises to keep the code readable instead of something like "and then, and then, and then..."</p>
+
 ```javascript
 async function refreshCode() {
   const result = await fetch("https://accounts.spotify.com/api/token", {
@@ -155,6 +159,7 @@ async function refreshCode() {
 ```
 #### 04
 <p><b>Async/Await</b> is relevant in complex functions.</p>
+
 ```javascript
 async function func() {
   await x;
@@ -179,9 +184,11 @@ function func() {
   })
 }
 ```
+
 A useful research source is <a target="_blank" href="https://youtu.be/vn3tm0quoqE">This YouTube Video</a>: 
 #### 05
 <p><b><a href="https://plyr.io/">Plyr</a></b> is a beautiful audio/video player I will be using</p>
+
 ```javascript
 // Playing songs
 const player = new Plyr("audio", {});
@@ -195,6 +202,7 @@ if (musicActive.none !== "none") {
 ```
 #### 06
 <p><b>Promise</b> is a useful feature in JavaScript which will be used. Relevant code snippets:</p>
+
 ```javascript
 async function playAlbum(data) {
   for (let i = 0; i < data.length; i++) {
@@ -206,6 +214,7 @@ async function playAlbum(data) {
 ```
 #### 07
 <p><b>Error Handling</b> is relevant in all API calls. The follow code refreshes the token if an error occurs and retries the request. This can happen if there are no requests within an hour and the token times out.</p>
+
 ```javascript
 const data = await result.json();
 
@@ -226,6 +235,7 @@ if (data.error) {
 ```
 #### 08
 <p><b>Building Search Results</b>. This is important to do effeciently as potentially hundreds of elements will be built at once:</p>
+
 ```javascript
 async function buildSearch(data) {
   // Data is an object containing fields: albums, artists, playlists, tracks
