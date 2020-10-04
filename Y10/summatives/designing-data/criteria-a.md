@@ -87,7 +87,7 @@
 
 #### 01
 <p><b>Firebase Authentication Listener</b> to distinguise whether users are signed in or out. This will also be used to show user different views depending on their account status. For example, a login page when they are not signed in.</p>
-```
+```javascript
 firebase.auth().onAuthStateChanged(function (user) {
   if (user) {
     // User is signed in.
@@ -99,45 +99,45 @@ firebase.auth().onAuthStateChanged(function (user) {
 
 #### 02
 <p><b>Spotify API Auth</b> is relevant to ensure all API requests go to spotify authenticated. Spotify has a very complex auth flow system so it was important to make sure the code worked before proceeding. I've put code comments to show what the code is doing.</p>
-```
-  // Check if access token stored in database is valid.
+```javascript
+// Check if access token stored in database is valid.
 
-  doc = await db
-    .collection("users") // Firebase firestore users
-    .doc(user.uid) // User doc
-    .collection("access") // Access collection
-    .doc("spotify") // Spotify doc
-    .get();
+doc = await db
+  .collection("users") // Firebase firestore users
+  .doc(user.uid) // User doc
+  .collection("access") // Access collection
+  .doc("spotify") // Spotify doc
+  .get();
 
-  if (!doc.exists) { 
-    // If document does not exist, redirect to reauthenticate.
-    window.location.replace("auth.html");
-  }
+if (!doc.exists) { 
+  // If document does not exist, redirect to reauthenticate.
+  window.location.replace("auth.html");
+}
 
-  // data.access is the refresh token, so exchange it for an actual token
-  token = doc.data().access;
-  window.spotifyToken = token;
-  // Add it to a window variable to use it in the global scope and for troubleshooting.
+// data.access is the refresh token, so exchange it for an actual token
+token = doc.data().access;
+window.spotifyToken = token;
+// Add it to a window variable to use it in the global scope and for troubleshooting.
 
-  // Exchange refresh token for a new token
-  const result = await fetch("https://accounts.spotify.com/api/token", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
-      Authorization:
-        "Basic {}",
-    },
-    body: `grant_type=refresh_token&refresh_token=${token}`,
-  });
+// Exchange refresh token for a new token
+const result = await fetch("https://accounts.spotify.com/api/token", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/x-www-form-urlencoded",
+    Authorization:
+      "Basic {}",
+  },
+  body: `grant_type=refresh_token&refresh_token=${token}`,
+});
 
-  const data = await result.json();
-  window.spotifyCode = data.access_token;
+const data = await result.json();
+window.spotifyCode = data.access_token;
 
-  // SpotifyCode will be used for subsequent API calls.
+// SpotifyCode will be used for subsequent API calls.
 ```
 #### 03
 <p><b>Refresh Spotify Code</b> is a code snippet to be used to refresh the auth code after every use. I prefer using async/await instead of promises to keep the code readable instead of something like "and then, and then, and then..."</p>
-```
+```javascript
 async function refreshCode() {
   const result = await fetch("https://accounts.spotify.com/api/token", {
     method: "POST",
@@ -155,7 +155,7 @@ async function refreshCode() {
 ```
 #### 04
 <p><b>Async/Await</b> is relevant in complex functions.</p>
-```
+```javascript
 async function func() {
   await x;
   // console.log('1')
@@ -182,7 +182,7 @@ function func() {
 A useful research source is <a target="_blank" href="https://youtu.be/vn3tm0quoqE">This YouTube Video</a>: 
 #### 05
 <p><b><a href="https://plyr.io/">Plyr</a></b> is a beautiful audio/video player I will be using</p>
-```
+```javascript
 // Playing songs
 const player = new Plyr("audio", {});
 $("#player").attr("src", `${song.url}`);
@@ -195,7 +195,7 @@ if (musicActive.none !== "none") {
 ```
 #### 06
 <p><b>Promise</b> is a useful feature in JavaScript which will be used. Relevant code snippets:</p>
-```
+```javascript
 async function playAlbum(data) {
   for (let i = 0; i < data.length; i++) {
     // Waits for promise resolve returned by play(),
@@ -206,7 +206,7 @@ async function playAlbum(data) {
 ```
 #### 07
 <p><b>Error Handling</b> is relevant in all API calls. The follow code refreshes the token if an error occurs and retries the request. This can happen if there are no requests within an hour and the token times out.</p>
-```
+```javascript
 const data = await result.json();
 
 if (data.error) {
@@ -226,7 +226,7 @@ if (data.error) {
 ```
 #### 08
 <p><b>Building Search Results</b>. This is important to do effeciently as potentially hundreds of elements will be built at once:</p>
-```
+```javascript
 async function buildSearch(data) {
   // Data is an object containing fields: albums, artists, playlists, tracks
   $("#search_albums").empty();
