@@ -7,7 +7,7 @@
 | - | - | - | - |
 | User Interface | - UI looks very appealing.<br>- Colors are consistent across the UI.<br>- Closely follows Google's Material Design specifications.  | A survey will be given to random users with questions such as, "Is the UI appealing to you?", with Y/N answers. | User interface is very important to a software solution's success. From my own experience, if an app does not have an appealing UI, I am less likely to use it. This mindset is shared with many users and many potential users of this application. |
 | Functionality | - Music can be played.<br> - Users can intuitively search for and find songs.<br>- A flexible library system is provided.<br>- Account authentication is secure and functional. | The criteria is measurable and so to evaluate, I will select yes or no for each of the criteria elements and justify. | Good UI is useless when there is no functionality of the app. Since the app is a dedicated music finder and player, it is important to build functionality around these features to improve the overall experience. |
-| Publication | - Application loads quickly. <br>- Application is properly packaged for MacOS, Windows, and Linux via Electron. | For load times, it must load on average 3s or less on a stable internet connection (UCC Wi-Fi) because of <a href="https://www.marketingdive.com/news/google-53-of-mobile-users-abandon-sites-that-take-over-3-seconds-to-load/426070/#:~:text=New%20research%20by%20Google%20has,seconds%20on%20a%204G%20connection.">this article's summary</a>. Rest of the critera are y/n answers and will be evaluated alongside a justification.| Ensuring the app is easy to install and able to be installed on as many users' computers as possible is important as without an easy way to install the app, very few people will actually be using the solution. By building it cross-platform, it will allow the most number of people to use this application. |
+| Publication | - Application loads quickly. <br>- Application is properly packaged for MacOS, Windows, and Linux via Electron. | For load times, it must load on average 3s or less on a stable internet connection (UCC Wi-Fi) because of <a target="_blank" href="https://www.marketingdive.com/news/google-53-of-mobile-users-abandon-sites-that-take-over-3-seconds-to-load/426070/#:~:text=New%20research%20by%20Google%20has,seconds%20on%20a%204G%20connection.">this article's summary</a>. Rest of the critera are y/n answers and will be evaluated alongside a justification.| Ensuring the app is easy to install and able to be installed on as many users' computers as possible is important as without an easy way to install the app, very few people will actually be using the solution. By building it cross-platform, it will allow the most number of people to use this application. |
 | User Experience | - App is easy to use according to users. <br>- Button actions are easily understood with icons or context. <br>- Users report high quality music and library experience. | This will be evaluated via a secondary form with questions such as, "Is the audio of high quality?", given to at least 5 people.| UX is another important critera for an app's success. To ensure users' are having a good experience using the app, feedback surveys will be conducted. If the user is not having a good experience while using the app, there is obviously no reason to continue using it which is not good. |
 
 ### Part Two | Design Ideas
@@ -52,7 +52,7 @@ As you can see, it could have a very nice place in design #1.
 
 ### Part Three | Planning Materials
 <p>In order to execute this design, there are some planning-related prerequisites including code snippets, assets, and more. All of which are shown here:</p>
-<small>Note: Code snippets are in image form but are copy-pastable <a href="">here</a>.</small>
+<small>Note: Code snippets are in image form but are copy-pastable <a target="_blank" href="">here</a>.</small>
 
 #### Electron Boilerplate
 ![](assets/screenshots/2020-10-08-01-35-44.png)
@@ -61,13 +61,13 @@ As you can see, it could have a very nice place in design #1.
 ![](assets/screenshots/2020-10-08-01-36-30.png)
 
 #### Accessing APIs
-<p>I have practiced my API skills by creating the following small webapps (Some require updates, open source <a href="https://raw.githubusercontent.com/r0hin/design/master/Y10/summatives/designing-data/assets/b_snippets.txt">here</a>):</p>
-<a href="https://r0h.in/?a=trumpy">Random Donald Trump Quote</a>
+<p>I have practiced my API skills by creating the following small webapps (Some require updates, open source <a target="_blank" href="https://raw.githubusercontent.com/r0hin/design/master/Y10/summatives/designing-data/assets/b_snippets.txt">here</a>):</p>
+<a target="_blank" href="https://r0h.in/?a=trumpy">Random Donald Trump Quote</a>
 <br>
-<a href="https://r0h.in/?a=joke">Joke Generator</a>
+<a target="_blank" href="https://r0h.in/?a=joke">Joke Generator</a>
 <br>
-<a href="https://r0h.in/?a=urban">Urban Dictionary Client</a><br>
-<a href="https://r0h.in/?a=movie">IMDB Viewer</a>
+<a target="_blank" href="https://r0h.in/?a=urban">Urban Dictionary Client</a><br>
+<a target="_blank" href="https://r0h.in/?a=movie">IMDB Viewer</a>
 
 #### Looping through API Data and Building Elements
 
