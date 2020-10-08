@@ -61,13 +61,13 @@ As you can see, it could have a very nice place in design #1.
 ![](assets/screenshots/2020-10-08-01-36-30.png)
 
 #### Accessing APIs
-<p>I have practiced my API skills by creating the following small webapps (Some require updates, open source <a target="_blank" href="https://github.com/r0hin/r0hin">somewhere here</a>):</p>
-<a target="_blank" href="https://r0h.in/?a=trumpy">Random Donald Trump Quote</a>
+<p>I have practiced my API skills by creating the following small webapps (Some require updates, open source <a target="_blank" href="https://github.com/r0hin/r0hin">somewhere here</a>, <small>mind the disclaimers</small>):</p>
+<a target="_blank" href="https://r0h.in/?a=trumpy">Random Donald Trump Quote</a> (Cannot verify poltical correctness)
 <br>
-<a target="_blank" href="https://r0h.in/?a=joke">Joke Generator</a>
+<a target="_blank" href="https://r0h.in/?a=joke">Joke Generator</a> (Cannot verify unoffensive jokes)
 <br>
-<a target="_blank" href="https://r0h.in/?a=urban">Urban Dictionary Client</a><br>
-<a target="_blank" href="https://r0h.in/?a=movie">IMDB Viewer</a>
+<a target="_blank" href="https://r0h.in/?a=urban">Urban Dictionary Client</a> (Cannot verify appropriate definitions)<br>
+<a target="_blank" href="https://r0h.in/?a=movie">IMDB Viewer</a> (Cannot verify appropriate films)
 
 #### Looping through API Data and Building Elements
 
