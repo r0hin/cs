@@ -61,7 +61,7 @@ As you can see, it could have a very nice place in design #1.
 ![](assets/screenshots/2020-10-08-01-36-30.png)
 
 #### Accessing APIs
-<p>I have practiced my API skills by creating the following small webapps (Some require updates, open source <a target="_blank" href="https://raw.githubusercontent.com/r0hin/design/master/Y10/summatives/designing-data/assets/b_snippets.txt">here</a>):</p>
+<p>I have practiced my API skills by creating the following small webapps (Some require updates, open source <a target="_blank" href="https://github.com/r0hin/r0hin">somewhere here</a>):</p>
 <a target="_blank" href="https://r0h.in/?a=trumpy">Random Donald Trump Quote</a>
 <br>
 <a target="_blank" href="https://r0h.in/?a=joke">Joke Generator</a>
