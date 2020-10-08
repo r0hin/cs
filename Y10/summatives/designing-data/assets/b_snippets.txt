@@ -1,0 +1,43 @@
+// ELECTRON BOILERPLATE
+
+const { app, BrowserWindow } = require('electron')
+
+function createWindow () {
+  const win = new BrowserWindow({
+    width: width,
+    height: height,
+    titleBarStyle: "hiddenInset",
+  })
+  win.loadURL(productionURL)
+}
+
+app.whenReady().then(createWindow)
+
+app.on('window-all-closed', () => {
+    app.quit()
+})
+
+app.on('activate', () => {
+  if (BrowserWindow.getAllWindows().length === 0) {
+    createWindow()
+  }
+})
+
+// LOOP THROUGH API
+for (let i = 0; i < response.length; i++) {
+  const element = response[i];
+  numerical = i + 1
+  animated = i * 250
+
+  definition = element.definition.replace(/((\[\s*)|(\s*\]))/g, "")
+  example = element.example.replace(/((\[\s*)|(\s*\]))/g, "")
+
+  a = document.createElement('div')
+  a.classList.add('card')
+  a.classList.add('animated')
+  a.classList.add('fadeInUp')
+  a.style.animationDelay = animated + "ms"
+  a.innerHTML = '<div style="text-align: left;" class="card-body"><h3>' + bam + ' definition <span class="chip">' + numerical + '</span></h3><p>' + definition + '</p><p>' + example + '</p><br><div class="row"><div class="col-sm"><center><h3>' + element.thumbs_up + '<h3><p>Upvotes</p></center></div><div class="col-sm"><center><h3>' + element.thumbs_down + '</h3><p>Downvotes</p></center></div></div><div style="text-align: right; width: 100%"><small>Definition by ' + element.author + '. <a target="_blank" href="' + element.permalink + '">Click</a> to view source. Written on ' + element.written_on + '</small></div></div>'
+
+  document.getElementById('definitions').appendChild(a)
+}
