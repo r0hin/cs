@@ -62,7 +62,7 @@ As you can see, it could have a very nice place in design #1.
 
 #### Accessing APIs
 <p>I have practiced my API skills by creating the following small webapps (Some require updates, open source <a href="https://raw.githubusercontent.com/r0hin/design/master/Y10/summatives/designing-data/assets/b_snippets.txt">here</a>):</p>
-<a href="https://r0h.in/?a=quote">Random Donald Trump Quote</a>
+<a href="https://r0h.in/?a=trumpy">Random Donald Trump Quote</a>
 <br>
 <a href="https://r0h.in/?a=joke">Joke Generator</a>
 <br>
