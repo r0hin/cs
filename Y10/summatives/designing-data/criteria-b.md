@@ -52,7 +52,7 @@ As you can see, it could have a very nice place in design #1.
 
 ### Part Three | Planning Materials
 <p>In order to execute this design, there are some planning-related prerequisites including code snippets, assets, and more. All of which are shown here:</p>
-<small>Note: Code snippets are in image form but are copy-pastable <a target="_blank" href="">here</a>.</small>
+<small>Note: Code snippets are in image form but are copy-pastable <a target="_blank" href="https://raw.githubusercontent.com/r0hin/design/master/Y10/summatives/designing-data/assets/b_snippets.txt">here</a>.</small>
 
 #### Electron Boilerplate
 ![](assets/screenshots/2020-10-08-01-35-44.png)
