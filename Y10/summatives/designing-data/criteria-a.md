@@ -254,3 +254,5 @@ async function buildSearch(data) {
 
 }
 ```
+
+<p>Thanks for reading 😎 🌲 🚀</p>
