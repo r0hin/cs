@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'second',
       theme: new ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.red,
       ),
       home: MyScaffold(),
     );
@@ -69,7 +69,21 @@ class MyScaffold extends StatelessWidget {
           ),
           Expanded(
             child: Center(
-              child: Text('Hello, world!'),
+              child: FlatButton(
+                color: Colors.blue,
+                textColor: Colors.white,
+                disabledColor: Colors.grey,
+                disabledTextColor: Colors.black,
+                padding: EdgeInsets.all(8.0),
+                splashColor: Colors.blueAccent,
+                onPressed: () {
+                  /*...*/
+                },
+                child: Text(
+                  "Click if Finlaser Bad",
+                  style: TextStyle(fontSize: 20.0),
+                ),
+              ),
             ),
           ),
         ],
