@@ -35,3 +35,6 @@ During this project, I have improved and learned many skills. I will briefly tal
 ### Part Four | Product ✨
 
 <a href="https://zoonk.surf/i?s=3bteXhR8gLfbGBfX7f3E/" target="_blank"> Product</a> and <a href="https://github.com/r0hin/eonsound" target="_blank"> Source Code</a> 
+
+### Part Five | Changes 🧑‍🔬
+Changes to the solution.
