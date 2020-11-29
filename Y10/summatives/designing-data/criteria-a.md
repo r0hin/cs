@@ -1,5 +1,5 @@
 # Designing Data | Criteria A
-
+## Inquiry & Analysis
 ### Part One | Need For Solution
 <p>Listening to music is fun. There are more than 278 million people with an active subscription to music services. Additionally, music streaming as an industry hit more than 11.4 billion U.S. dollars in revenue worldwide. That's a lot of money and there are many people happy to pay $10 a month for unlimited streaming - but imagine if there was an alternative. If there was a beautiful, well-crafted and well-designed application to listen to millions of songs for free for life. That is where my solutution comes in. As someone who enjoys listening to music, I can empathize with those whose parents may not have an active family subscription or if you just don't feel like spending the money. While $10 a month doesn't seem like much, 78% of workers in the U.S. are living paycheck to paycheck and saving a few hundred extra bucks a year could come in handy. </p>
 <p>In this case, the client is myself as I will be using this. When creating this, it must live up to my own expectations and be something that I would use myself. The taget demographic is, as I touched on above, anyone who doesn't want to pay the $10 music streaming fee.</p>

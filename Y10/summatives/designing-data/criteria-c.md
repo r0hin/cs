@@ -1,5 +1,5 @@
 # Designing Data | Criteria C
-
+## Creating the Solution
 ### Part One | Plan ⏰
 
 | Date 📅| Prediction ✨ | Progress 📈 |
@@ -34,7 +34,7 @@ During this project, I have improved and learned many skills. I will briefly tal
 <p>soon</p>
 ### Part Four | Product ✨
 
-<a href="https://zoonk.surf/i?s=3bteXhR8gLfbGBfX7f3E/" target="_blank"> Product</a> and <a href="https://github.com/r0hin/eonsound" target="_blank"> Source Code</a> 
+<a target="_blank" href="https://github.com/r0hin/eonsound/releases/latest"><img src="https://img.shields.io/badge/click-view product-e21w8s?style=for-the-badge"></a> <a target="_blank" href="https://github.com/r0hin/eonsound"><img src="https://img.shields.io/badge/click-view source-e21w8s?style=for-the-badge"></a>
 
 ### Part Five | Changes 🧑‍🔬
 Changes to the solution.
