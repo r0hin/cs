@@ -1,7 +1,7 @@
-# Designing Data | Criteria D
+# Designing Data | Criterion D
 ## Evaluate
 ### Part One | Testing Methods 🧪
-Here is the chart from Criteria B outlining the success criteria, testing methods and details.
+Here is the chart from Criterion B outlining the success criteria, testing methods and details.
 | Request| Critera | Evaluation | Justification |
 | - | - | - | - |
 | User Interface | - UI looks very appealing.<br>- Colors are consistent across the UI.<br>- Closely follows Google's Material Design specifications.  | A survey will be given to random users with questions such as, "Is the UI appealing to you?", with Y/N answers. | User interface is very important to a software solution's success. From my own experience, if an app does not have an appealing UI, I am less likely to use it. This mindset is shared with many users and many potential users of this application. |

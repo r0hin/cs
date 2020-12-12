@@ -1,4 +1,4 @@
-# Designing Data | Criteria C
+# Designing Data | Criterion C
 ## Creating the Solution
 ### Part One | Plan ⏰
 
