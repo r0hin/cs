@@ -31,7 +31,9 @@ During this project, I have improved and learned many skills. I will briefly tal
 <p>Another important skill I developed was the experience of producing a desktop app from start to finish. I learned a lot about git, GitHub Releases and more tools to deliver products. I also learned about <a href="https://semver.org/" target="_blank">Semantic Versioning</a> and licencing. Finally, since this is a desktop app meant for users, I had to focus a lot on ease of use and making sure the components flowed correctly integrating the code and UI to provide a good user experience. </p>
 
 ### Part Three | Video Demonstration 🍿
+
 <p>working on it</p>
+
 ### Part Four | Product ✨
 
 <a target="_blank" href="https://github.com/r0hin/eonsound/releases/latest"><img src="https://img.shields.io/badge/click-view product-e21w8s?style=for-the-badge"></a> <a target="_blank" href="https://github.com/r0hin/eonsound"><img src="https://img.shields.io/badge/click-view source-e21w8s?style=for-the-badge"></a>
