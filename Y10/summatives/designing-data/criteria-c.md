@@ -36,7 +36,7 @@ During this project, I have improved and learned many skills. I will briefly tal
 
 ### Part Four | Product ✨
 
-<a target="_blank" href="https://github.com/r0hin/eonsound/releases/latest"><img src="https://img.shields.io/badge/click-view product-e21w8s?style=for-the-badge"></a> <a target="_blank" href="https://github.com/r0hin/eonsound"><img src="https://img.shields.io/badge/click-view source-e21w8s?style=for-the-badge"></a>
+<a target="_blank" href="https://r0hin.github.io/eonsound"><img src="https://img.shields.io/badge/click-view product-e21w8s?style=for-the-badge"></a> <a target="_blank" href="https://github.com/r0hin/eonsound"><img src="https://img.shields.io/badge/click-view source-e21w8s?style=for-the-badge"></a>
 
 ### Part Five | Changes 🧑‍🔬
 During the process of building the final product, there were many changes with the UI, logic, backend, etc. I will discuss the largest changes:

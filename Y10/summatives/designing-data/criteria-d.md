@@ -43,10 +43,12 @@ Looking at the feedback given by the users, it is the general consensus that the
 
 | Qs| A #1| A #2| A #3 | A #4|
 | - | - | - | - | - |
-| Does the app have a good user experience? How good do you feel when using it?| ☑️ "I feel good while using it, feels very smooth and nice and lots of features and not buggy" | | | a|
-| Is the music of high quality and do you feel capable and in control when listening? | ☑️ "Yes i agree, it can rival that of spotifies although i like spoti better" | a | a | a |
-| Does the music library work well and is it intuitive to use? Can your tracks, albums, artists, and playlists be easily navigated via tabs and sorting features? | ☑️ "Yes i can" | a | a | a |
-| Finally, do you have any feedback for the user experience? | ☑️ No Feedback | | | a |
+| Does the app have a good user experience? How good do you feel when using it?| ☑️ "I feel good while using it, feels very smooth and nice and lots of features and not buggy" | Awaiting Response | Awaiting Response | Awaiting Response |
+| Is the music of high quality and do you feel capable and in control when listening? | ☑️ "Yes i agree, it can rival that of spotifies although i like spoti better" | Awaiting Response | Awaiting Response | Awaiting Response |
+| Does the music library work well and is it intuitive to use? Can your tracks, albums, artists, and playlists be easily navigated via tabs and sorting features? | ☑️ "Yes i can" | Awaiting Response | Awaiting Response | Awaiting Response |
+| Finally, do you have any feedback for the user experience? | ☑️ No Feedback | Awaiting Response | Awaiting Response | Awaiting Response |
+
+Based on the current feedback presented above, it can be concluded that the user experience was very good and was easy to use. This topic is very closely intertwined with User Interface because to have a good UX, you need a good UI. The music was high quality and definitely better than alternatives in the context of listening parties such as other platforms, discord bots, etc. The library was well made in terms of code and it shows since there are minimal bugs and it is powerful. Finally, the feedback was useful and these features will definitely help the UX get better and let the general quality of the app increase. Thanks to the beta-testers for helping me evaluate this :D.
 
 ### Part Three | Improvements 📈
 
