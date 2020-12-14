@@ -32,7 +32,7 @@ During this project, I have improved and learned many skills. I will briefly tal
 
 ### Part Three | Video Demonstration 🍿
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y5Kvm2S6HDM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a target="_blank" href="https://www.youtube.com/watch?v=y5Kvm2S6HDM"><img src="https://img.shields.io/badge/click-watch now-w2bw3s?style=for-the-badge"></a> 
 
 ### Part Four | Product ✨
 
