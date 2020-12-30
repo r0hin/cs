@@ -1,0 +1,84 @@
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+  <title>Title</title>
+</head>
+
+<br><br><br>
+<center> <a href="index.html" style="color: white;" class="waves-effect orange darken-4 waves-light btn">Back</a> </center>
+
+
+
+
+
+
+
+
+
+
+
+<body>
+
+
+<center> <div style="height: 400px; width: 300px;" class="card hoverable">
+
+<br><br>
+
+  <h4>Tip Calculator</h4>
+  <h5>Created by Rohin</h5>
+
+
+  <div style="width: 150px" class="md-form">
+             <input type="text" id="form1" class="form-control">
+             <label for="form1">Enter total price</label>
+             <input type="text" id="form2" class="form-control">
+             <label for="form1">Enter # of people paying</label>
+           </div>
+
+<a style="color: white; text-decoration: none; width: 100px;" onclick="othername()" class="btn waves-effect waves-light orange">Calculate</a>
+
+<script>
+  function othername() {
+    var x = document.getElementById("form1").value;
+    var peoplepaying = document.getElementById("form2").value;
+    var y = x * 0.13
+    var g = y.toFixed(2);
+    var a = x * 0.18
+    var f = a.toFixed(2);
+    var b = +x + +f //tip
+    var d = b.toFixed(2);
+    var z = +x + +g //tax
+    var e = z.toFixed(2);
+    var c = +x + +f + +g //total
+    var k = c.toFixed(2);
+    var kp = +k / +peoplepaying //total
+    var kpp = kp.toFixed(2);
+
+
+
+alert("Tip $" + f + "\nTax $" + g + "\nTotal $" + k + "\nTotal per person $" + kpp)
+  }
+
+
+
+
+
+  </script>
+<br><br><br>
+</div> </center>
+
+
+
+
+
+
+
+
+  </body>
