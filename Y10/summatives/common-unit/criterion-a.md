@@ -107,5 +107,7 @@ async function() {
 <p>Shown above is another trick I learned (async/await) to lower code footprint and make everything more readable. In conclusion, I learned a lot about how to work with electron, Firebase and NodeJS and this will be very useful when working on my forums platform.</p>
 
 <center>
-Thanks for reading! 🌴
+<br><br><br><br>
+End. Thank you for reading. 🌴
 </center>
+

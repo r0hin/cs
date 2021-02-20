@@ -65,3 +65,11 @@ query = await db.collection("timelines")
 ```
 
 where the code performs a Firebase Firestore query to gather relevant data in the correct order and format. 
+
+
+
+
+<center>
+<br><br><br><br>
+End. Thank you for reading. 🌴
+</center>
