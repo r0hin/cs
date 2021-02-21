@@ -13,13 +13,20 @@
 #### Idea One
 This idea is very unique in that it shows a design with a large front-facing title. This gives immediate context to the user. Underneath, there is a large search bar to search up a song. After it is selected via a dropdown menu, the search bar and other elements will be removed and the actual forum-related content will be shown. This includes posts, profiles, etc. 
 
+Home page:
+![](assets/screenshots/2021-02-20-20-02-19.png)
+After selecting a song:
+![](assets/screenshots/2021-02-20-20-09-30.png)
 
 #### Idea Two
 This idea is similar to previous sites where all posts are visible across the platform. With this, the songs are included simply via tags and are able to be played on a click. With this idea, it will be more familiar if the user has used any other type of forum software.
 
-#### Idea Three
-Similarly to Idea Two, this idea will be build directly into the main app. There will be an option in the song's context menu to open a sidebar containing all the forum-related features there. This will be interesting because the user will not need to go somewhere else to access the forum topics and can instead use the app normally.
+![](assets/screenshots/2021-02-20-20-12-41.png)
 
+#### Idea Three
+Similarly to Idea Two, this idea will be build directly into the main app. There will be an option in the song's context menu to open a sidebar containing all the forum-related features there. This will be interesting because the user will not need to go somewhere else to access the forum topics and can instead use the app normally. This concept reminds me a lot of a comment system where each song can have some 'comments' system.
+
+![](assets/screenshots/2021-02-20-20-17-06.png)
 
 ### Part Three | Chosen Design
 <p>I've chosen <b>Design #1</b> for the inspiration for the solution because of a few reasons.</p>

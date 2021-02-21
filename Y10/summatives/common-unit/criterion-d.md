@@ -42,7 +42,7 @@
 
 <p>The publication was very successful in terms of a music / forum website (/ application). </p>
 
-### Verdict & Improvements
+### Part Three | Verdict & Improvements
 <p>My verdict in terms of success level is <b>unsuccessful</b>. I will explain the reasons for this in the improvements section.</p>
 
 
@@ -61,7 +61,7 @@
 <p>If these technical challenges are met and there exists an initial boost of users, I believe that the userbase and success criteria will be 100% met and the forum can be considered a success. Until then, there are definitely more steps to be taken.</p>
 
 
-### Impact
+### Part Four | Impact
 
 <p>The impact of the forum on the users and myself is quite interesting. The user now has access to the following suite of features:</p>
 
