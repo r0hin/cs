@@ -22,10 +22,15 @@ Over the course of this project, I developed many fundamental skills that I will
 
 <b>Project Experience</b> is something I mentioned in the previous Y10 design project and I believe with this project, I further expanded my experience relating to project development and coding. I learned a lot about planning because what I actually got done was very different to what I had outlined. This is important because I feel that this is reflecting in real development jobs and it is crucial to be flexible with the outcome so that you are able to keep pace with the plan and modify it as needed. 
 
-### Part Three | Video Submission & Code Segments
-Currently uploading the video. I will replace this text with the link once its available.
+### Part Three | Video Demonstration 🍿
 
-### Part Four | Changes
+<a target="_blank" href="https://youtu.be/h6mhxOQyCN8"><img src="https://img.shields.io/badge/click-watch now-w2bw3s?style=for-the-badge"></a> 
+
+### Part Four | Product ✨
+
+<a target="_blank" href="https://r0hin.github.io/eonsound"><img src="https://img.shields.io/badge/click-view product-e21w8s?style=for-the-badge"></a> <a target="_blank" href="https://github.com/r0hin/eonsound"><img src="https://img.shields.io/badge/click-view source-e21w8s?style=for-the-badge"></a>
+
+### Part Five | Changes
 There were definitely many changes that had to be made during the process of development. It is extremely difficult to near impossible for a project to go 100% as plan and there were many techincal and project issues that needed to be either resolved or moves away from. I will discuss and explain the database structure redesign, UI changes, and finally, the idea change. 
 
 <b>Database Structure Redesign</b>. I decided to use Firebase Cloud Firestore for the duration of the project. I chose this because I am familiar with the structure and the syntax required. Although, I was limited in experience with optimizing the database for reads and writes. The first major project was conducting the posts structure so it had all the relevant details, but also a way that it would store each user that liked the post and commented. Originally, I had it stored through arrays in the "post" document. I quickly found out that there was a 1mb limit to how big each document could be. I resolved many issues by switching document arrays to their own collections. Although this uses significantly more reads and writes, it will be a lot more scalable in the future. 
