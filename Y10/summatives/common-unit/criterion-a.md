@@ -1,38 +1,46 @@
-# Common Unit | Criterion A
-## Inquiry & Analysis
-### Part One | Need For Solution
-There are very few dedicated places to discuss your favourite music. There are general forums such as Reddit's r/music and other artist-related forums. After consulting friends, more than 50% would use a platform to discuss their favourite songs. Since there is a demand and lack of a proper solution, it created a good opportunity to create a product that does exactly that! The target audience / user will be anyone who has an interest in music. The client is myself as it will be mainly build around my preferences and ideas. In this case, I do not know what users want and so I will base my design and technical choices around external feedback.
 
-### Part Two | Research Plan
-The product, "EonSound Forums" will require the following areas of research:
+<p align="center">
+  <b>Criterion A - Inquiry</b>
+  <br><br>
+</p>
 
-- <a href="https://www.w3schools.com/html/"> HTML</a> - HTML will be the basic building block for the website. HTML defines the elements.
-- <a href="https://www.w3schools.com/css/"> CSS</a> - CSS is important for conditional elements and a proper layout. CSS styles the elements defined by the HTML. 
-  - <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"> Flex</a> - Flex is the updated layout method to create repsonsive and accessible displays.
-  - <a href="https://css-tricks.com/almanac/properties/a/animation/"> CSS3 Animations</a> - Animations are important to ensure the app itself does not look dated.
-  - <a href=""> Libraries</a>
-    - <a href="https://getboostrap.com/"> Bootstrap</a> - A common CSS framework with grid and a plethora of elements.
-    - <a href="http://daemonite.github.io/material/"> Material Design</a> - Material by Daemonite is a library built ontop of bootstrap containing material design components.
-    - <a href="https://eastcoastgang.github.io/style/dev/"> East</a> - Additional components built ontop of Mateiral by Daemonite.
-- <a href="https://www.w3schools.com/js/"> JavaScript</a> - Javascript is an equally important tool to provide any sort of functionality to the app.
-  - <a href="https://www.w3schools.com/js/js_loop_for.asp"> Loops</a> - Loops will be everywhere. For example, loops through search results to build content.
-  - <a href="https://www.w3schools.com/js/js_arrays.asp"> Arrays & Objects</a> - Arrays will also be everywhere. For example, user data, API returns, etc.
-  - <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"> Fetch API</a> - The primary method for gathering external data.
-- <a href="https://firebase.google.com"> Firebase</a>
-  - <a href="https://firebase.google.com/docs/auth">Authentication</a> - Authenticate users securely.
-  - <a href="https://firebase.google.com/docs/firestore"> Cloud Firestore</a> - Store user data (forum posts, etc).
-  - <a href="https://firebase.google.com/docs/storage"> Cloud Storage</a> - Store music from cloud function.
-  - <a href="https://firebase.google.com/docs/functions"> Cloud Functions</a> - Allow users to play songs without risking security.
-  - <a href="https://firebase.google.com/docs/hosting">Firebase Hosting</a> - Host the app worldwide.
-- <a href="https://nodejs.org/en/">NodeJS</a>
-  - <a href="http://electronjs.org/">Electron</a> - Provide a native-class desktop app experience for Mac, Windows, and Linux from a single codebase.
-    - <a href="https://github.com/electron-userland/electron-builder">Electron Builder</a> - Package the apps in an easy manner for each platform.
-  - <a href="https://www.npmjs.com/package/firebase-admin">firebase-admin</a> - Tools for uploading to storage from cloud functions.
-  - <a href="https://www.npmjs.com/package/firebase-functions">firebase-functions</a> - Tools for troubleshooting cloud functions.
+<p align="right">
+  Y10 Design <br>
+  Rohin Arya <br>
+  April 6, 2020 <br>
+</p>
 
-### Part Three | Product Examination
+### 1. Need for Solution
 
-<b>/r/Music</b> is one of the most popular music discussion forum. It has more than 27 million members.
+68% of adults said they listen to music every day. This is a large group of people with many looking to share their thoughts on such a common topic. This problem has been contemplated many times and there are already some solutions. However, there are many problems with these existing solutions which will all be explained later. Reddit's r/music has more than 27 million members with shows the significant demand for a product like this. I found that the majority of friends I consulted, would use a platform to discuss their favourite songs frequently!
+
+The intended userbase is simply music listeners who want to talk about their favourite songs. Since there is a demand and lack of a proper solution, there is a good opportunity to create a product that does exactly this! Since the product will be built around my ideas, I am my own client. In this case, I don't know specifically what users will want. Thus, design and technical choices will be based around external feedback. In conclusion, this product will serve this group by providing a sufficient platform to speak about these songs. It will also aid these people by connecting them with other like-minded individuals who share their taste in music.
+
+### 2. Research Plan (Topical)
+
+| Value | Topic | Reason | Primary/Secondary |
+| - | - | - | - |
+| #1 | Music Platforms | In order to properly complete my research, I will need to first properly understand the user-app dynamic. Common practices, monetization elements, and playback-related standards will be crucial in creating my own features related to this genre.| Primary: https://open.spotify.com/, http://music.apple.com/<br>Secondary: http://blog.idonethis.com/spotify-growth-mindset/|
+| #2 | Music Copyright | Looking at Spotify's music playback system, it seems like copyright fees are the largest expense and the reason they are still losing money. I will need to look into this very closely to find out if this platform will even be legal or whether content licencing will be required. | Primary: https://www.copyright.gov/title17/ <br>Secondary: https://blog.songtrust.com/how-spotify-streams-turn-into-royalties|
+| #3 | How Forums Work | Internet forums have existed for decades and attract people of all kinds. From 2010 chat rooms to Twitter, there is a very large gap in my knowledge about how these forums are run, moderated, created and managed. Learning this will help me with my own music forum. | Primary: https://redditblog.com/, https://reddit.com, https://twitter.com <br>Secondary: https://www.businessinsider.com/how-twitter-was-founded-2011-4, https://www.engadget.com/2020-02-27-internet-forums-dying-off.html|
+| #4 | UX | UI/UX design thinking is an additional topic which holds significant important for the project. A negative user interface can be a large reason for users to quickly leave. As such, the user interface should fine-tuned and it will be very important to conduct research on UX practices. Sites like dribbble and behance provide many examples of stunning UI designs and will be used for inspiration. | Primary: https://dribbble.com, https://behance.com<br>Secondary: https://www.entrepreneur.com/article/309161|
+| #5 | Content Moderation | Large social companies such as Twitter, Facebook are constantly under attack for their content moderation. Ensuring that I am aware of  | Primary: <br>Secondary: |
+
+### 2. Research Plan (Technical)
+| Value | Topic | Reason | Primary/Secondary |
+| - | - | - | - |
+| #1 | JavaScript |  | Primary: <br>Secondary: |
+| #2 | Firebase |  | Primary: <br>Secondary: |
+| #3 | HTML |  | Primary: <br>Secondary: |
+| #4 | Electron |  | Primary: <br>Secondary: |
+| #5 | CSS |  | Primary: <br>Secondary: |
+| #6 | Spotify API |  | Primary: <br>Secondary: |
+
+
+
+### 3. Product Examination
+<b>/r/Music</b>
+
 ![](assets/screenshots/2021-02-14-11-28-28.png)
 
 | Pros | Cons |
@@ -42,7 +50,9 @@ The product, "EonSound Forums" will require the following areas of research:
 | - Daily discussions | - Performance is not optimized|
 | | - Cannot play music |
 
-<b>The Music Banter</b> is another very popular music forum which labels itself as "The Internet's Top Music Community". It also has thousands to hundreds of thousands of posts in each topic.
+r/Music is one of the most popular music discussion forums boasting more than 27 million members. Its easily discoverable due to Reddit's large influence and it being promoted all over their site. There are millions of active users with daily discussions, comments, frequent posts and more. Keeping these benifits in mind will be integral. However, with that being said, it is also important to consider the drawbacks. Firstly, each user must already have created an account on Reddit in order to interact. Secondly, the posts are unorganized due to Reddit's simple nature. Each post is displayed one after another with no grouping based on song/artist. As such, it is difficult to speak about a specific song if it's not very popular. Thirdly, reddit is not optimized. The new redesign is heavily critized for being performance-heavy and downloading many unnecessary resources. This ties in with the first point in that this community largely restricted being that it is simply a grouping on the parent platform: Reddit. Finally, the platform cannot play any music besides limited inline youtube embeds (which aren't always available). Thefore, despite r/music being a flourishing community of passionate musicians and listeners, there are fundamental problems which prevents it from expanding beyond Reddit.
+
+<b>The Music Banter</b>
 
 ![](assets/screenshots/2021-02-17-12-38-08.png)
 
@@ -53,7 +63,10 @@ The product, "EonSound Forums" will require the following areas of research:
 | - Lots of topics | |
 | - Good performance ||
 
-<b>Google Sites</b> is a website-creation platform designed by Google. Although unrelated to music in general, it does have stunning components.
+The Music Banter is another very popular music forum which labels itself as "The Internet's Top Music Community". It also has thousands to hundreds of thousands of posts in each topic. Firstly, there are many active users which is required to create an product that people will use more than once. Secondly, the website ranks very high on Google. This is very important as search engines are the main source for many websites' traffick and provide a gateway to millions of users. Thirdly, there is an abundance of topics, from musicians sharing their work to discussions about new releases, there are many groupings of posts to choose from. Finally, the UI is extremely performant and does not require much compute power to run quickly. Unfortunately, there are large issues with this. Firstly, the UI is extremely outdated and basic. Though this is likely the reason for the website's high performance, I do not believe it is worth it due to the lack of a good user experience. The outdated UI might also immediately push some users away who are used to more friendly and modern user interfaces. Finally, similarly to the previous sample product, the platform does not play music besides rare YouTube embeds which does not add to the user experience. In conclusion, despite The Music Banter being a well-organized and active community, it is held back by their outdated UI and lack of outstanding features.
+
+
+<b>Google Sites</b>
 
 ![](assets/screenshots/2021-02-17-12-37-34.png)
 
@@ -65,49 +78,7 @@ The product, "EonSound Forums" will require the following areas of research:
 | - Good performance ||
 | - Frequent Updates ||
 
-### Part Four | Design Brief
+Google Sites is a website-creation platform designed by Google. Although unrelated to music in general, it does have stunning components that could be used as inspiration. Since the product is unrelated to music, the content and purpose of the webapp should be overlooked, but this does not detract from the exceptional UI. Firstly, similarly to the previous example, this website ranks extremely high on search engines which suggests that the platform contains an abundance of users. Next, the site executes the Material Design system very well, closely following the guidlelines. With this, there are consistent features like the fluid ripple effect used on buttons, dropdowns, etc. These touches add micro-interactional consistency and significantly aid the user experience. Finally, the UI is frequently updated with many new features added. This benifit is always good to keep users on the platform. Therefore, Google Sites employs legendary design and consistent upkeeping to keep users happy on the platform. This type of management can certainly be useful to keep in mind while creating my own project.
 
-#### 01
-<p>During the research of this project, I learned many things about the technical and developmental side of creating an application like this. There were many technical challenges such as being able to distinguise whether users are signed in or out. This will also be used to show user different views depending on their account status. For example, a login page when they are not signed in. Here is a code snippet to demonstrate:</p>
-
-```javascript
-firebase.auth().onAuthStateChanged(function (user) {
-  if (user) {
-    // User is signed in.
-  } else {
-    // User is signed out.
-  }
-});
-```
-<p>Another thing I learned during via classes and other resources is arrow functions. There a more concise way of using functions. For example, the old function notation is something like this:</p>
-
-```javascript
-callbackFunction(function(params) {
-  //
-})
-```
-
-<p>And the new function notation is something like this:</p>
-
-```javascript
-callbackFunction((params) => {
-  //
-})
-```
-
-<p>After learning more about the development, I decided to choose a platform. Since I had already created EonSound in the previous project, I decided to add this part as an extension of it! Specific technologies mentioned are NodeJS, Firebase, and Electron. As a consequence of my research, I learned more about electron-packager, a way to finalize apps with an icon, installer files and other QoL features for the user. I also generally learned about a lot of optimizations to enhance performance and improve design thinking.</p>
-
-```javascript
-async function() {
-  // One line to call firebase
-  data = await firebase.firestore().collection('app').doc('music').get()
-}
-```
-
-<p>Shown above is another trick I learned (async/await) to lower code footprint and make everything more readable. In conclusion, I learned a lot about how to work with electron, Firebase and NodeJS and this will be very useful when working on my forums platform.</p>
-
-<center>
-<br><br><br><br>
-End. Thank you for reading. 🌴
-</center>
+### 4. Design Brief
 
