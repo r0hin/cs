@@ -24,16 +24,16 @@ The intended userbase is simply music listeners who want to talk about their fav
 | #2 | Music Copyright | Looking at Spotify's music playback system, it seems like copyright fees are the largest expense and the reason they are still losing money. I will need to look into this very closely to find out if this platform will even be legal or whether content licencing will be required. | Primary: https://www.copyright.gov/title17/ <br>Secondary: https://blog.songtrust.com/how-spotify-streams-turn-into-royalties|
 | #3 | How Forums Work | Internet forums have existed for decades and attract people of all kinds. From 2010 chat rooms to Twitter, there is a very large gap in my knowledge about how these forums are run, moderated, created and managed. Learning this will help me with my own music forum. | Primary: https://redditblog.com/, https://reddit.com, https://twitter.com <br>Secondary: https://www.businessinsider.com/how-twitter-was-founded-2011-4, https://www.engadget.com/2020-02-27-internet-forums-dying-off.html|
 | #4 | UX | UI/UX design thinking is an additional topic which holds significant important for the project. A negative user interface can be a large reason for users to quickly leave. As such, the user interface should fine-tuned and it will be very important to conduct research on UX practices. Sites like dribbble and behance provide many examples of stunning UI designs and will be used for inspiration. | Primary: https://dribbble.com, https://behance.com<br>Secondary: https://www.entrepreneur.com/article/309161|
-| #5 | Content Moderation | Large social companies such as Twitter, Facebook are constantly under attack for their content moderation. Ensuring that I am aware of  | Primary: <br>Secondary: |
+| #5 | Content Moderation | Large social companies such as Twitter, Facebook are constantly under attack for their content moderation. Ensuring that I am aware of these practices and the controversies surrounded | Primary: https://help.twitter.com/en/rules-and-policies/twitter-rules <br>Secondary: https://www.cnbc.com/2021/02/27/content-moderation-on-social-media.html|
 
 ### 2. Research Plan (Technical)
 | Value | Topic | Reason | Primary/Secondary |
 | - | - | - | - |
-| #1 | JavaScript |  | Primary: <br>Secondary: |
-| #2 | Firebase |  | Primary: <br>Secondary: |
-| #3 | HTML |  | Primary: <br>Secondary: |
-| #4 | Electron |  | Primary: <br>Secondary: |
-| #5 | CSS |  | Primary: <br>Secondary: |
+| #1 | JavaScript | The product fundamentally consists of JavaScript. JS will be responsible for all logic including front-end related things like dynamic page content, etc. Additionally, cloud functions are written in JavaScript to provide backend functionality as well. | Primary: <br>Secondary: |
+| #2 | Firebase | In order to create the cloud functions, authenticate users, create a database and use other backend functions like these, I will be using the services of Firebase as described in this unit. Because of this, the development time will be greatly reduced. | Primary: <br>Secondary: |
+| #3 | HTML | To create the front end in the Electron app, I will be using Hyper-Text Markup Language to build components. As learned in class, this will create prebuilt elements as well as some container elements for use by the JavaScript code. Generally, this is a very structural component to the application / website.  | Primary: <br>Secondary: |
+| #4 | Electron | Next, Electron will be important. In terms of priority, this platform can be adapted into a standalone website just fine but it will greatly improve the experience if it was built into the electron app. Learning electron will allow me to easily package the app into a desktop app compatible on Windows, MacOS AND Linux easily.| Primary: <br>Secondary: |
+| #5 | CSS | Another structural technology to learn is CSS which will dictate how the elements look on the page. | Primary: <br>Secondary: |
 | #6 | Spotify API |  | Primary: <br>Secondary: |
 
 
