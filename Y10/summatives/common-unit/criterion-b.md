@@ -1,14 +1,12 @@
 # Designing Data | Criterion B
 ## Developing Ideas
-### Part One | Success Critera
+### Part One | Detailed Success Critera
 
-| Request| Critera | Evaluation | Justification |
+| Topic | Critera | Evaluation | Justification |
 | - | - | - | - | 
-| User Interface | - UI looks very appealing.<br>- Colors are consistent across the UI.<br>- Closely follows Google's Material Design specifications.  | A survey will be given to random users with questions such as, "Is the UI appealing to you?", with Y/N answers. | User interface is very important to a software solution's success. From my own experience, if an app does not have an appealing UI, I am less likely to use it. This mindset is shared with many users and many potential users of this application. |
-| Functionality | - Music can be played.<br> - Users can view forum posts.<br>- Users can post comments about specific songs.<br>- Account authentication is secure and functional. | The criteria is measurable and so to evaluate, I will select yes or no for each of the criteria elements and justify. | Good UI is useless when there is no functionality of the app. Since the product is a dedicated music forum and discussion platform, it is important to build functionality around this topic to improve the overall experience. |
-| Publication | - The website loads quickly inside of the application similarly to the rest of the pages. <br>- It should work via Electron with a high degree of stability for all platforms. | For load times, it must load on average 3s or less on a stable internet connection (UCC Wi-Fi). Rest of the critera are y/n answers and will be evaluated alongside a justification.| Ensuring that the site is easy to use and able to be run on as many users' computers as possible is important. It will run through the EonSound application which has already been evaluated as successful. |
-| User Experience | - Website is easy to use according to users. <br>- Buttons are quite easily understood with icons or context. <br>- Users report a high quality music and library experience. | This will be evaluated via a secondary form with questions such as, "Would you use the forums?", given to at least 5 people.| UX is another important critera for a website's success. To ensure users' are having a good experience using the website, feedback surveys will be conducted. If the user is not having a good experience while using the website, there is obviously no reason to continue using it which is not good. |
-
+| UI / UX | - Colors are consistent and respect the user's theme, (Dark blue background in dark mode, primary color by theme, etc).<br>- Colors are consistent across the UI.<br><br>- Closely follows Google's Material Design specifications which outlines details about specific elements such as buttons, cards, etc.<br><br>- All buttons and icons are easily identifiable and it is easy to tell their purpose.<br><br>- The product is reported as easy to use and good looking from users.  | A survey will be given to random users with questions such as, "Is the UI appealing to you?", with Y/N answers. Users report a high quality music and library experience.| User interface is very important to a software solution's success. From my own experience, if an app does not have an appealing UI, I am less likely to use it. This mindset is shared with many users and many potential users of this application. UX is another important critera for a website's success. To ensure users' are having a good experience using the website, feedback surveys will be conducted. If the user is not having a good experience while using the website, there is obviously no reason to continue using it which is not good.|
+| Discovery Functionality | - Search field works and returns data about the song.<br><br> - There are buttons with trending searches in order to provide example searches.<br><br>- Potential resuts include the entirety of the Spotify library.<br><br>- Account authentication is secure and functional so that users cannot search until they are signed in. | This criteria is measurable and so to evaluate, I will select yes or no for each of the criteria elements and justify. | Discovery is important to any application, however, since this product is largely based around user searches, it is especially important that the experience is both possible and high-quality.|
+| Commenting Functionality | - Possible to comment in any song's forum.<br><br> - Comments / posts are laid out in sequentially automatically. <br><br>- Comments update immediately to provide a more immersive and reactive experience| This peice of functionality will require that users are actually able to provide their thoughts and read out people's posts about music. This feature will thereby complete the mission of the application itself and could easily be labelled the most important feature. | Similarly to the discoverability functionality criteron, the points listed to the right can be objectively measured which is why I will be evaluating them with a simple yes/no + justification.|
 ### Part Two | Design Ideas
 #### Idea One
 This idea is very unique in that it shows a design with a large front-facing title. This gives immediate context to the user. Underneath, there is a large search bar to search up a song. After it is selected via a dropdown menu, the search bar and other elements will be removed and the actual forum-related content will be shown. This includes posts, profiles, etc. 
@@ -35,6 +33,15 @@ Firstly, it's <b>unique</b>. A forum with unlimited topics is not very common an
 </p>
 <p>Secondly, it has a high degree of <b>user-experience</b>. ...Or at least, I think it will. I believe it will be much easier to understand a simple "talk about your favourite song" rather than having to understand how all the forums topics work together to create a separate experience. If I were the end-user, i'd rather not get too involved with traditional forum software and instead treat it more of a discussion element.</p>
 <p>Finally, it is <b>feasible</b>. Some features of the other designs require a high degree of knowledge. Things like proper post discussion, WYSIWSYG editors, and more are tools beyond the scope of my research. I believe it is important to decide on an idea that I can complete cofidently and thoroughly than a half-baked idea that doesn't work well with the rest of the app and is not very optimized.</p>
+
+<h4>Success Criteria</h4>
+The points outlined in the success criteria are demonstrated in this design. Looking at the black & white design as well as the HTML mockup below, the colors are consistent with user themes/ Additionally, most icons are supported with text to avoid confusion. When consulted with friends and personal opinon, the response was generally that the design looks good. User experience is diffucult to measure with simply a design however which leaves potential room for error.
+
+<h4>Designed in Greyscale</h4>
+According to my favourite UI design book, "<a href="https://www.refactoringui.com/book" target="_blank">Refactoring UI</a>", By designing in grayscale, you’re forced to use spacing, contrast, and size to do all of the heavy lifting." While color is important, my intial designs were planned with other design hierarchical systems such as spacing. As part of my chosen design, I created a colored HTML mock-up of how the design might look in order to consolidate ideas.
+
+![](assets/screenshots/2021-05-14-20-37-19.png)
+
 
 ### Part Four | Planning Materials
 
@@ -73,10 +80,10 @@ query = await db.collection("timelines")
 
 where the code performs a Firebase Firestore query to gather relevant data in the correct order and format. 
 
-
+#### 04
 
 
 <center>
 <br><br><br><br>
-End. Thank you for reading. 🌴
+End 🌴
 </center>
