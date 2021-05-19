@@ -81,7 +81,65 @@ query = await db.collection("timelines")
 where the code performs a Firebase Firestore query to gather relevant data in the correct order and format. 
 
 #### 04
+Another code snippet has to do with Firebase Authentication. This code checks if the user is signed in and will perform an action based on it.
 
+```javascript
+firebase.auth().onAuthStateChanged(function (user) {
+  if (user) {
+    // User is signed in.
+    window.user = user;
+  }
+})
+```
+
+#### 05
+Since the playback code will largely be the same as the one used in the main EonSound app, I can reuse the following code with slight modification.
+
+```javascript
+async function playSongs(Id, externalData) {
+  // Playlists will have sufficient data
+  // Albums wont
+  if (externalData) {
+    // Allow for passing in external data
+    musicDataPlay = externalData
+  }
+  else {
+    // Use data from ID
+    musicDataPlay = queueData[Id]
+  }
+  
+  for (let n = 0; n < musicDataPlay.length; n++) {
+    const playSongsSong = musicDataPlay[n];
+    if (playSongsSong.url) {
+      if (n == 0) {
+        // Play it. (Clear queue and play first song)
+        await playSong(playSongsSong)
+      }
+      else {
+        // Queue it
+        await queueSong(playSongsSong, true)
+      }
+    }
+    else {
+      if (n == 0) {
+        // Play it. (Clear queue and play first song)
+        await playSongWithoutData(playSongsSong.id)
+      }
+      else {
+        // Queue it
+        await queueSongWithoutData(playSongsSong.id, true)
+      }
+    }
+  }
+  
+  if (musicQueue.length > 0) {
+    $('#showQueue').removeClass('hidden') 
+  }
+  
+  visualQ_build()
+  
+}
+```
 
 <center>
 <br><br><br><br>
