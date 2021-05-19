@@ -10,7 +10,7 @@
   April 1, 2020 <br>
 </p>
 
-### 1. Written Component
+### Written Component
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Algorithm-Style Coding Interviews are everywhere. They are extremely common among employers looking for engineering candidates. As such, an extremely valuable skill is strong problem-solving skills tuned to a specific type of question commonly used by employers and competitions. While the answers usually require high technological knowledge, it helps significantly to approach each question with a mindset armed with relevant experience. - Experience adapted to the range of question-answer archetypes. To learn the targeted skills, I intend to create teaching artifacts based on existing competition questions.
 
