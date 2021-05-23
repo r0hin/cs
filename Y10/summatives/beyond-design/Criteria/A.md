@@ -4,11 +4,9 @@
   <br><br>
 </p>
 
-<p align="right">
-  Y10 Design <br>
-  Rohin Arya <br>
-  April 1, 2020 <br>
-</p>
+Y10 Design<br>
+Rohin Arya<br>
+May 17, 2021
 
 ### Written Component
 
