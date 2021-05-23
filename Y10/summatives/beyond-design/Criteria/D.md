@@ -12,7 +12,7 @@ May 17, 2021
 
 <a target="_blank" href="https://youtu.be/ZvV5G-uCsFY"><img src="https://img.shields.io/badge/Evaluation-Video-w2bw3s?style=for-the-badge"></a>
 
-<b>Respones</b>
+<b>Responses</b>
 
 - All readable, slides are very good.
 - The artifacts are all certainly readable and easily understandable. The video could be slightly clearer but by no means is it difficult to watch!
