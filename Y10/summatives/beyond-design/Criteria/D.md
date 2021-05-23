@@ -8,7 +8,19 @@ Y10 Design<br>
 Rohin Arya<br>
 May 17, 2021
 
-### Video
+### Video & Notes
+
+<a target="_blank" href="https://youtu.be/ZvV5G-uCsFY"><img src="https://img.shields.io/badge/Evaluation-Video-w2bw3s?style=for-the-badge"></a>
+
+<b>Respones</b>
+
+- All readable, slides are very good.
+- The artifacts are all certainly readable and easily understandable. The video could be slightly clearer but by no means is it difficult to watch!
+- Readable, yes.
+- No problem understanding it.
+- Artifacts 1, 3, and 5 were very very good. I could understand it with no problem. Only 2 was lightly harder to understand since I had to read more code but I could 100% follow along still.
+
+<b>5/5 Positive.</b>
 
 ### Written Component
 
