@@ -31,9 +31,8 @@ Problem Details
 <a target="_blank" href="https://docs.google.com/document/d/e/2PACX-1vRjOMnmNZbpyVCq05YqLkIqx0nceXRN6if_0XO3AzeJLzH5nowLMNcTY0XamsgMrRpb3PBRNvT79VBV/pub?embedded=true"><img src="https://img.shields.io/badge/Artifact-Strategies%20And%20Tips-w2bw3s?style=for-the-badge"></a> 
 
 
-#### #4 (Uploading)
-<a target="_blank" href="#"><img src="https://img.shields.io/badge/Artifact-Common%20Algorithms-w2bw3s?style=for-the-badge"></a> 
-https://docs.google.com/presentation/d/1Wg5Cvb1L6e9y4uvvkfFn7AU2PSVHhWnc5uQyPI2Tk8M/edit#slide=id.gd946538ba8_0_31
+#### #4
+<a target="_blank" href="https://youtu.be/OscjMU8-vyc"><img src="https://img.shields.io/badge/Artifact-Common%20Algorithms-w2bw3s?style=for-the-badge"></a> 
 
 #### 5
 <a target="_blank" href="https://docs.google.com/presentation/d/1eo2e84OOY7fzJWKNCGOAQfUR-5kePTWLjcNuTAzF7zc/present"><img src="https://img.shields.io/badge/Artifact-Long%20Pizza-w2bw3s?style=for-the-badge"></a> 
