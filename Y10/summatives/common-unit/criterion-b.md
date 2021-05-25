@@ -35,13 +35,13 @@ Firstly, it's <b>unique</b>. A forum with unlimited topics is not very common an
 <p>Finally, it is <b>feasible</b>. Some features of the other designs require a high degree of knowledge. Things like proper post discussion, WYSIWSYG editors, and more are tools beyond the scope of my research. I believe it is important to decide on an idea that I can complete cofidently and thoroughly than a half-baked idea that doesn't work well with the rest of the app and is not very optimized.</p>
 
 <h4>Success Criteria</h4>
-The points outlined in the success criteria are demonstrated in this design. Looking at the black & white design as well as the HTML mockup below, the colors are consistent with user themes/ Additionally, most icons are supported with text to avoid confusion. When consulted with friends and personal opinon, the response was generally that the design looks good. User experience is diffucult to measure with simply a design however which leaves potential room for error.
+The points outlined in the success criteria are demonstrated in this design. Looking at the black & white design as well as the HTML mockup below, the colors are consistent with user themes/ Additionally, most icons are supported with text to avoid confusion. When consulted with friends and personal opinon, the response was generally that the design looks good. User experience is difficult to measure with simply a design however which leaves potential room for error. Finally, the design outlined provides space for features outlined in the success criteria. For example, the commenting section, the search section and more are included with solid UI components. The one element that is missing however is the color scheme as that is integral for a good UI. To combat this:
 
 <h4>Designed in Greyscale</h4>
-According to my favourite UI design book, "<a href="https://www.refactoringui.com/book" target="_blank">Refactoring UI</a>", By designing in grayscale, you’re forced to use spacing, contrast, and size to do all of the heavy lifting." While color is important, my intial designs were planned with other design hierarchical systems such as spacing. As part of my chosen design, I created a colored HTML mock-up of how the design might look in order to consolidate ideas.
 
-![](assets/screenshots/2021-05-14-20-37-19.png)
+According to my favourite UI design book, "<a href="https://www.refactoringui.com/book" target="_blank">Refactoring UI</a>", By designing in grayscale, you’re "forced to use spacing, contrast, and size to do all of the heavy lifting." While color is important, my intial designs were planned with other design hierarchical systems such as spacing and other elements states previously. As part of my chosen design, I created a colored HTML mock-up of how the design might look in order to consolidate ideas.
 
+![](assets/screenshots/2021-05-25-14-48-04.png)
 
 ### Part Four | Planning Materials
 
@@ -140,6 +140,12 @@ async function playSongs(Id, externalData) {
   
 }
 ```
+
+#### 06
+
+The next planning material is a color palette which can be used in the design. Having a good color scheme goes a long way and can help sell the product even more beyond features. The blueish colors can be substituted for the color dependent on the user's theme settings.
+
+![](assets/screenshots/2021-05-25-14-46-10.png)
 
 <center>
 <br><br><br><br>
