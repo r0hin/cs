@@ -82,3 +82,19 @@ Google Sites is a website-creation platform designed by Google. Although unrelat
 
 ### 4. Design Brief
 
+The design brief primarily contains references to aspects of the design based on research and products anlyses. 
+
+#### Reference 01: UI
+As previously mentioned, a good user interface is very essential in creating a usable product for the general public. Because of this, I will be using the Material Design Guidelines to inform decisions about the design. As seen in the product anlayses, I mentioned that the Google Sites dashboard page had an outstanding UI because of it's accurate model of the Material Design system. The guidelines are available at <a href="https://material.io/design/foundation-overview">material.io</a> which outline some of the design principles that will be helpful in creating a good-looking UI appealing to users.
+
+#### Reference 02: Feature-Set
+A large portion of Criteron B's success criteria may be based on specific features. These features will separate the product from the other competition as described in the previous section. The current features to distinguish the product from others are simply to create a new forum for each song on the Spotify library.
+
+#### Reference 03: Implementation & Users
+A commonality in successes with all the music-related product analyses is that there were an abundance of users eager to particpiate. I forsee this being the largest challenge in this application. In order to keep the forums active, I will need to implement it into the rest of the app successfully. Perhaps along with the friends list in order to create a more social aspect or something like this.
+
+#### Reference 04: Speed
+Finally, to promote a high quality user experience, I will focus a lot on speed and performance of the application. The Reddit forum flaw is that the whole website loads very very slowly on average computer with average internet speeds. This is what leads many users away from the platform such as myself and people I've talked to about it. The solution that will be included in my own product is to keep everything lightweight and optimized to ensure that nothing is being loaded unnecessarily and only loading features as you use them instead of all at once.
+
+#### Reference 05: Comments Forum
+Another important feature that I noticed with these forums is that it is less like a robust social media and more like a clunky wall of posts. This is because everytime you are talking with someone, you must refresh the entire page every time to fetch new messages. On sites like Reddit, the problem is compounded by having slow loading speeds. On my product, I will be using Firebase Cloud Firestore Listeners in order to update the post when new data is added allowing multiple users to have a live, vivid conversation. 
