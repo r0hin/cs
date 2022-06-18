@@ -1,0 +1,5 @@
+joe
+123 spadina
+123-322-4234
+joe@gmail.com
+Automated: This client was created by the client loop.
