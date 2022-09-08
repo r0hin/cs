@@ -46,7 +46,7 @@ public class Array2D {
     avg = sum / arr.length;
     System.out.println("Average of column " + col + " is " + avg);
 
-    sc.close();
+    sc.close(); // stop memory leak
   }
 
 }
