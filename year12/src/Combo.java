@@ -31,6 +31,7 @@ public class Combo {
 
   public static int getCount() {
     return comboCount;
+
   }
 
   public boolean isSecure() {
