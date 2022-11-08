@@ -13,6 +13,27 @@ public class Map extends Object{
 		
 	}
 	
+	public int getY() { return map.length; }
+	
+	
+	public int getX() { 
+		
+		try {
+			
+		
+			return map[0].length; 
+		
+		} catch (Exception e) {
+			
+			return -1;
+		
+		}
+	}
+	
+	public int getValue(int x, int y) {
+		return map[y][x];
+	}
+	
 	/**
 	 * 
 	 * @param n
@@ -29,31 +50,35 @@ public class Map extends Object{
 		
 		return arr;
 	}
-	public void generateMap() {
 	
-		//Approach 1:
-//		for (int x = 0; x < map.length; x = x + 1) {
-//			
-//			for (int y = 0; y < map[x].length; y = y + 1) {
-//				
-//				int r = (int)(Math.random()*range);
-//				map[x][y] = r;
-//				
-//			}
-//		}
-//		
-		
-		//Approach 2: 
-		
+	public void generateMap() {
 		for (int x = 0; x < map.length; x = x + 1) {
-
-			map[x] = generate1DList(map[x].length, range);
-
-		}
+			
+			for (int y = 0; y < map[x].length; y = y + 1) {
+				
+				int r = (int)(Math.random()*100);
+				
+				if (r < 50) {
+					map[x][y] = 2;
+				}
+				else if (r < 75) {
+					map[x][y] = 1;
+						
+				}
+				else {
+					map[x][y] = 0;
+					
+				}
+				
+			}
+	}
+		
+		
 	
 		
 		
 	}
+	
 	
 	public String toString() {
 		
