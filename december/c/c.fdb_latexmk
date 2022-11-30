@@ -1,7 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1669644341 "/Users/rohin/GitHub/cs/december/a/a.tex" "a.pdf" "a" 1669644342 0
-  "/Users/rohin/GitHub/cs/december/a/a.tex" 1669644341 1342 4029d5814b551df0d8c32ad8b7525e26 ""
-  "/Users/rohin/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+["pdflatex"] 1669827016 "/Users/rohin/GitHub/cs/december/c/c.tex" "c.pdf" "c" 1669827016 0
+  "/Users/rohin/GitHub/cs/december/c/c.tex" 1669827015 217 4647cabe0862380b852a8d7039df7800 ""
   "/Users/rohin/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/Users/rohin/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
   "/Users/rohin/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -13,7 +12,6 @@
   "/Users/rohin/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/Users/rohin/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/Users/rohin/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
-  "/Users/rohin/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/Users/rohin/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/Users/rohin/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/Users/rohin/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
@@ -33,13 +31,12 @@
   "/Users/rohin/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1669282195 92933 5251356c6a6d54f852da22724c47ae70 ""
   "/Users/rohin/Library/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt" 1669260099 1645758 e63120a50deb7b1352772d9ed96cdb15 ""
   "/Users/rohin/Library/TinyTeX/texmf.cnf" 1669260020 637 edd806fb06a89761a6034e1968af9017 ""
-  "a.aux" 1669644342 440 5c7793f2915824aeeb222bb69b8d0b32 "pdflatex"
-  "a.tex" 1669644341 1342 4029d5814b551df0d8c32ad8b7525e26 ""
-  "a.toc" 1669644342 134 5b402688471a15160bf42b02f379b94e "pdflatex"
-  "images/SCR-20221124-7e6.png" 1669285629 70256 ee400c5a42f28fa062f27c5f6f5d780c ""
+  "c.aux" 1669827016 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
+  "c.tex" 1669827015 217 4647cabe0862380b852a8d7039df7800 ""
+  "c.toc" 1669827016 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
-  "a.aux"
-  "a.log"
-  "a.pdf"
-  "a.toc"
+  "c.aux"
+  "c.log"
+  "c.pdf"
+  "c.toc"
   (rewritten before read)
