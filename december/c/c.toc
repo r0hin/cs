@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}Algorithmic Thinking: Managing a 2D Array}{2}{}%
+\contentsline {section}{\numberline {2}Algorithmic Thinking: Something with Unlimited Map}{4}{}%
+\contentsline {section}{\numberline {3}Technique: Class Structure}{5}{}%
+\contentsline {section}{\numberline {4}Technique: Writing and Reading Data}{6}{}%
+\contentsline {section}{\numberline {5}Technique: Interfaces}{7}{}%

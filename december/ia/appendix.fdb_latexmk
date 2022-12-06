@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1670357328 "/Users/rohin/GitHub/cs/december/a/a.tex" "a.pdf" "a" 1670357328 0
-  "/Users/rohin/GitHub/cs/december/a/a.tex" 1670357328 1341 d91b7c75099df99a1f7e141e578c49f2 ""
+["pdflatex"] 1670358904 "/Users/rohin/GitHub/cs/december/ia/appendix.tex" "appendix.pdf" "appendix" 1670358904 0
+  "/Users/rohin/GitHub/cs/december/ia/appendix.tex" 1670358904 6092 c3b4487a07d685bc8b32236404657816 ""
   "/Users/rohin/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/Users/rohin/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/Users/rohin/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -33,13 +33,12 @@
   "/Users/rohin/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1669282195 92933 5251356c6a6d54f852da22724c47ae70 ""
   "/Users/rohin/Library/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt" 1669260099 1645758 e63120a50deb7b1352772d9ed96cdb15 ""
   "/Users/rohin/Library/TinyTeX/texmf.cnf" 1669260020 637 edd806fb06a89761a6034e1968af9017 ""
-  "a.aux" 1670357328 440 5c7793f2915824aeeb222bb69b8d0b32 "pdflatex"
-  "a.tex" 1670357328 1341 d91b7c75099df99a1f7e141e578c49f2 ""
-  "a.toc" 1670357328 134 5b402688471a15160bf42b02f379b94e "pdflatex"
-  "images/SCR-20221124-7e6.png" 1669285629 70256 ee400c5a42f28fa062f27c5f6f5d780c ""
+  "appendix.aux" 1670358904 147 3c332c048d1c7461b4b850d4550dd853 "pdflatex"
+  "appendix.tex" 1670358904 6092 c3b4487a07d685bc8b32236404657816 ""
+  "appendix.toc" 1670358904 74 115f65030870e1dd9c148aafaac63de2 "pdflatex"
   (generated)
-  "a.aux"
-  "a.log"
-  "a.pdf"
-  "a.toc"
+  "appendix.aux"
+  "appendix.log"
+  "appendix.pdf"
+  "appendix.toc"
   (rewritten before read)

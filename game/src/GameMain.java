@@ -29,14 +29,11 @@ public class GameMain extends Object {
 	private JPanel canvas = new JPanel() {
 		
 		public void paintComponent (Graphics g) {
-		
 			super.paintComponent(g);
 			g.setColor(Color.RED);
 			
 			for (int y = 0; y < map.getY(); y = y + 1) {
-				
 				for (int x = 0; x < map.getX(); x = x + 1) {
-					
 					if (map.getValue(x, y) == 0) {
 						g.setColor(Color.GREEN);
 					}
@@ -53,8 +50,8 @@ public class GameMain extends Object {
 				}
 			}
 
-			g.setColor(player.getColor());
-			g.fillRect(player.getX()*10, player.getY()*10, player.getX()*10 + 10, player.getY()*10 + 10);
+			// g.setColor(player.getColor());
+			// g.fillRect(player.getX()*10, player.getY()*10, player.getX()*10 + 10, player.getY()*10 + 10);
 		}	
 	};
 	
@@ -108,13 +105,8 @@ public class GameMain extends Object {
 	private Player player = new Player(0, 0);
 
 	public GameMain() {
-		
-		//Construct Data Elements
-		map = new Map(30,30);
-		System.out.println(map);
-				
-		//Construct Graphic Elements
-		frame = new JFrame();
+		map = new Map(30,30); // Make map
+		frame = new JFrame(); // Construct graphic elements
 		panel = new JPanel();
 		
 		attackBTN = new JButton("Attack");

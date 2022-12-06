@@ -53,30 +53,19 @@ public class Map extends Object{
 	
 	public void generateMap() {
 		for (int x = 0; x < map.length; x = x + 1) {
-			
 			for (int y = 0; y < map[x].length; y = y + 1) {
-				
 				int r = (int)(Math.random()*100);
-				
 				if (r < 50) {
 					map[x][y] = 2;
 				}
 				else if (r < 75) {
 					map[x][y] = 1;
-						
 				}
 				else {
 					map[x][y] = 0;
-					
 				}
-				
 			}
-	}
-		
-		
-	
-		
-		
+		}
 	}
 	
 	
