@@ -1,2 +1,0 @@
-\contentsline {section}{\numberline {1}Defining the Problem}{2}{}%
-\contentsline {section}{\numberline {2}Proposing a Solution}{2}{}%
