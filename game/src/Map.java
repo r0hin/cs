@@ -2,48 +2,53 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.FileReader;
 
-public class Map extends Object{
-
-	private int chunkX;
+public class Map {
+	private int chunkX; // Chunk coordinates
 	private int chunkY;
-	private Player linkedPlayer;
-	private int[][] map;
+	private Player linkedPlayer; // For printCoords()
+	private int[][] map; // Currently active chunk
 	
-	public Map() {
+	public Map() { // Constructor, default chunk (0, 0)
 		chunkX = 0;
 		chunkY = 0;
+		// Load chunk (0, 0)
 		getChunk(chunkX, chunkY);
 	}
 
-	public void linkPlayer(Player linkedPlayer) {
-		this.linkedPlayer = linkedPlayer;
+	public void linkPlayer(Player player) {
+		// Link player to map
+		this.linkedPlayer = player;
 	}
 
 	public void printCoords() {
+		// Print player coordinates in map
 		int newX = chunkX * 30 + linkedPlayer.getX();
 		int newY = chunkY * 30 + linkedPlayer.getY();
-
 		System.out.println("New coordinate: " + newX + ", " + newY);
 	}
 
 	public void shiftChunk(int dX, int dY) {
+		// Given a shift in x and y, shift chunk
 		chunkX = chunkX + dX;
 		chunkY = chunkY + dY;
+		// Load new chunk
 		getChunk(chunkX, chunkY);
 	}
 
 	private void saveChunk(int x, int y) {
-		// Save 2d array to file
-
+		// Get file
 		File f = new File("map/" + x + "_" + y + ".map");
 		try {
+			// Make sure directory and file exists
 			f.getParentFile().mkdirs();
 			f.createNewFile();
 		} catch (Exception e) {
+			// Print to console if error
 			System.out.println(e.getMessage());
 		}
 
 		try {
+			// New FileWriter 
 			FileWriter fw = new FileWriter("map/" + x + "_" + y + ".map");
 
 			fw.write(this.toString());
@@ -81,7 +86,7 @@ public class Map extends Object{
 				}
 
 				map = arr;
-
+				return map;
 
 			} catch (Exception e) {
 				System.out.println(e.getMessage());
@@ -94,13 +99,12 @@ public class Map extends Object{
 			generateMap();
 			saveChunk(x, y);
 
-			return null;
+			return map;
 		}
 	}
 	
 	public int getY() { return map.length; }
 	public int getX() { 
-		
 		try {
 			
 		
@@ -118,19 +122,6 @@ public class Map extends Object{
 	 * @param n
 	 * @return
 	 */
-	public static int[] generate1DList(int n, int r) {
-		
-		
-		int[] arr = new int[n];
-
-		for (int i = 0; i < arr.length; i = i + 1) {
-			arr[i] = (int)(Math.random()*r);
-		}
-		
-		
-		return arr;
-	}
-	
 	
 	public void generateMap() {
 
@@ -153,21 +144,7 @@ public class Map extends Object{
 					map[x][y] = 2;	
 				}
 			}
-	}
-		
-		
-		//Approach 2: 
-		
-		//for (int x = 0; x < map.length; x = x + 1) {
-		
-//			map[x] = generate1DList(map[x].length, range);
-			
-//		}
-		
-		
-	
-		
-		
+	}	
 	}
 	
 	

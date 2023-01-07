@@ -22,11 +22,6 @@ public class GameMain extends Object {
 	private JFrame frame;
 	private JPanel panel;
 	
-	
-	private JButton attackBTN;
-	private JButton magicBTN;
-	private JButton defendBTN;
-	
 	//Data Component
 	private Map map;
 
@@ -35,29 +30,25 @@ public class GameMain extends Object {
 		public void paintComponent (Graphics g) {
 		
 			super.paintComponent(g);
-			g.setColor(Color.RED);
 			
 			for (int y = 0; y < map.getY(); y = y + 1) {
-				
 				for (int x = 0; x < map.getX(); x = x + 1) {
-					
 					if (map.getValue(x,y) == 0) {
-						g.setColor(Color.GREEN);
+						// Nice green color
+						g.setColor(new Color(1, 92, 25));
 					}
 					if (map.getValue(x,y) == 1) {
-						g.setColor(Color.BLUE);
+						g.setColor(new Color(55, 105, 179));
 					}
 					if (map.getValue(x,y) == 2) {
-						g.setColor(Color.GRAY);
+						g.setColor(new Color(56, 105, 120));
 					}
 					
 					g.fillRect(x*10,y*10,10,10);
 				}
 			}
 			
-			g.setColor(player.getColor());
-			
-
+			g.setColor(Color.WHITE);
 			g.fillRect(player.getX()*10,player.getY()*10,10,10);
 		}	
 		
@@ -119,7 +110,7 @@ public class GameMain extends Object {
 	private Player player = new Player(2, 1);
 	
 	
-	public GameMain() {
+	private GameMain() {
 
 		//Construct Data Elements
 		map = new Map();
@@ -130,35 +121,16 @@ public class GameMain extends Object {
 		frame = new JFrame();
 		panel = new JPanel();
 		
-		attackBTN = new JButton("Attack");
-		magicBTN = new JButton("Magic");
-		defendBTN = new JButton("Defend");
 		
-		
-		//Setup and Display Graphic Elements
-		
-		
-		
-		
-		panel.setPreferredSize(new Dimension(500,500));
+		// Add panel title
+		frame.setTitle("Auto-generated Map Viewer");
+
+		panel.setPreferredSize(new Dimension(310,310));
 		panel.setLayout(null); //when I set the layout to null I have full control
 		
-		//setBounds(x,y,width,heigh);
-		attackBTN.setBounds(5,5,100,30);
-		attackBTN.addActionListener(action);
-		
-		magicBTN.setBounds(5,35,100,30);
-		magicBTN.addActionListener(action);
-		
-		defendBTN.setBounds(5,65,100,30);
-		defendBTN.addActionListener(action);
-		
-		canvas.setBounds(105,5,300,300);
+		canvas.setBounds(5,5,300,300);
 		
 		//Add the objects/widgets to the screen
-		panel.add(attackBTN);
-		panel.add(magicBTN);
-		panel.add(defendBTN);
 		panel.add(canvas);
 		
 		

@@ -5,7 +5,6 @@ public class Player {
 	private int x;
 	private int y;
 	private Map linkedMap;
-	private Color color = new Color(255,0,0);
 	
 	public Player(int x, int y) {	
 		this.x = x;
@@ -15,9 +14,7 @@ public class Player {
 	public void linkMap(Map linkedMap) {
 		this.linkedMap = linkedMap;
 	}
-	
-	public Color getColor() { return color; }
-	
+
 	public int getX() { return x; }
 	public int getY() { return y; }
 	
@@ -49,5 +46,5 @@ public class Player {
 		}
 
 		linkedMap.printCoords();
-	}	
+	}
 }
